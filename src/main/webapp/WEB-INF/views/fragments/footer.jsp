@@ -19,14 +19,15 @@
 <acme:footer-panel>
 	<acme:footer-subpanel code="master.footer.title.about">
 		<acme:footer-option icon="fa fa-building" code="master.footer.label.company" action="/master/company"/>
-		<acme:footer-option icon="fa fa-file" code="master.footer.label.license" action="/master/license"/>		
+		<acme:footer-option icon="fa fa-file" code="master.footer.label.license" action="/master/license"/>
+		<acme:footer-option icon="fa fa-database" code="master.footer.label.database" action="https://github.com/DaEnri/Acme-Recipes"/>		
 	</acme:footer-subpanel>
 
 	<acme:footer-subpanel code="master.footer.title.social">
-		<acme:message var="__linkedinUrl" code="master.footer.url.linkedin"/>
-		<acme:footer-option icon="fab fa-linkedin" code="master.footer.label.linked-in" action="${__linkedinUrl}" newTab="true"/>
-		<acme:message var="__twitterUrl" code="master.footer.url.twitter"/>
-		<acme:footer-option icon="fab fa-twitter" code="master.footer.label.twitter" action="${__twitterUrl}" newTab="true"/>
+		<acme:message var="linkedinUrl" code="master.footer.url.linkedin"/>
+		<acme:footer-option icon="fab fa-linkedin" code="master.footer.label.linked-in" action="${linkedinUrl}" newTab="true"/>
+		<acme:message var="twitterUrl" code="master.footer.url.twitter"/>
+		<acme:footer-option icon="fab fa-twitter" code="master.footer.label.twitter" action="${twitterUrl}" newTab="true"/>
 	</acme:footer-subpanel>
 
 	<acme:footer-subpanel code="master.footer.title.languages">
@@ -39,4 +40,3 @@
 	</acme:footer-logo>		
 
 </acme:footer-panel>
-
