@@ -1,3 +1,11 @@
 key,enabled,identity,password,username
 user-account-anonymous-01,false,"UserIdentity{name: 'John', surname: 'Doe', email: 'john.doe@acme.com'}",HIDDEN-PASSWORD,anonymous
 user-account-administrator-01,true,"UserIdentity{name: 'Administrator', surname: 'Acme', email: 'administrator@acme.com'}",administrator,administrator
+user-account-chef-01,true,"UserIdentity{name: 'Pedro', surname: 'Seda', email: 'chef1@gmail.com'}",chef1,chef1
+user-account-chef-02,true,"UserIdentity{name: 'Alberto', surname: 'Hernandez', email: 'chef1@gmail.com'}",chef2,chef2
+user-account-chef-03,true,"UserIdentity{name: 'Manuel', surname: 'Bond', email: 'chef1@gmail.com'}",chef3,chef3
+user-account-chef-04,true,"UserIdentity{name: 'Rodolfo', surname: 'Garcia', email: 'chef1@gmail.com'}",chef4,chef4
+user-account-epicure-01,true,"UserIdentity{name: 'Roberto', surname: 'Bru', email: 'epicure1@gmail.com'}",epicure1,epicure1
+user-account-epicure-02,true,"UserIdentity{name: 'Javier', surname: 'Guerra', email: 'epicure2@gmail.com'}",epicure2,epicure2
+user-account-epicure-03,true,"UserIdentity{name: 'Yoel', surname: 'Ortiz', email: 'epicure3@gmail.com'}",epicure3,epicure3
+user-account-epicure-04,true,"UserIdentity{name: 'Daniel', surname: 'Gallardo', email: 'epicure4@gmail.com'}",epicure4,epicure4
