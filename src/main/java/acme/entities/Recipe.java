@@ -44,6 +44,9 @@ public class Recipe extends AbstractEntity {
 	@Length(max = 255)
 	protected String preparationNotes;
 	
+	@NotNull
+	protected boolean published;
+	
 	@URL
 	protected String optionalLink;
 	
