@@ -1,0 +1,5 @@
+key,key:chef,code,heading,description,preparation-notes,published,optional-link
+recipe-01,chef-01,RE:AAA-111,Bocadillo de carne,Un bocadillo de pan con carne,Tuesta el pan - cocina la carne en la sarten y mete la carne dentro del pan,true,null
+recipe-02,chef-01,RE:ABB-112,Patatas fritas,Unas crujientes y sabrosas patatas fritas,Pela las patatas fritas - metelas en una sarten con aceite y listo,false,https://example.com/
+recipe-03,chef-02,RE:BCB-184,Macarrones con queso,Deliciosos macarrones con queso, Hierve los macarrones - usa el colador para quitarles el agua y añade queso,true,null
+recipe-04,chef-03,RE:MCQ-124,Tortilla con albahaca,Tortilla con huevo y un poco de albahaca, Corta la albahaca con el cuchillo - añade los huevos en la sarten y cuando esten listos añade la albahaca,true,null

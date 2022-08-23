@@ -1,0 +1,16 @@
+key,amount,unit,key:kitchen-item,key:recipe
+quantity-01,01,KILO,kitchen-item-04,recipe-01
+quantity-02,01,UNIT,kitchen-item-12,recipe-01
+quantity-03,300,GRAM,kitchen-item-14,recipe-01
+quantity-04,01,UNIT,kitchen-item-15,recipe-01
+quantity-05,01,UNIT,kitchen-item-15,recipe-02
+quantity-06,300,GRAM,kitchen-item-16,recipe-02
+quantity-07,10,CM3,kitchen-item-17,recipe-02
+quantity-08,01,UNIT,kitchen-item-13,recipe-03
+quantity-09,100,GRAM,kitchen-item-18,recipe-03
+quantity-10,01,UNIT,kitchen-item-19,recipe-03
+quantity-11,20,GRAM,kitchen-item-05,recipe-03
+quantity-12,3,UNIT,kitchen-item-20,recipe-04
+quantity-13,10,GRAM,kitchen-item-06,recipe-04
+quantity-14,01,UNIT,kitchen-item-21,recipe-04
+quantity-15,01,UNIT,kitchen-item-10,recipe-04

@@ -1,0 +1,22 @@
+key,key:chef,type,name,code,description,retail-price,published,optional-link
+kitchen-item-01,chef-01,INGREDIENT,I,IN:ABC-123,D,EUR 123.45,false,https://example.com/
+kitchen-item-02,chef-02,INGREDIENT,IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII,IN:ABD-113,Es un ingrediente poco utilizado,GBP 123.45,false,null
+kitchen-item-03,chef-04,INGREDIENT,Oregano,IN:ABC-144,DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD,EUR 2.45,false,null
+kitchen-item-04,chef-01,INGREDIENT,Carne de res,IN:ABC-173,Es un tipo de carne muy utilizado procedente de la vaca,EUR 25.00,true,null
+kitchen-item-05,chef-02,INGREDIENT,Queso gouda,IN:ABC-129,Queso con un sabor particular,GBP 15.20,true,https://example.com/
+kitchen-item-06,chef-03,INGREDIENT,Albahaca,IN:ZBC-123,Hierba usada en numerosas recetas para aportar sabor,EUR 2.99,false,null
+kitchen-item-07,chef-04,KITCHEN_UTENSIL,K,KU:ABC-123,D,EUR 123.45,false,https://example.com/
+kitchen-item-08,chef-01,KITCHEN_UTENSIL,IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII,KU:ABD-113,Es un utensilio de cocina poco utilizado,GBP 123.45,false,null
+kitchen-item-09,chef-02,KITCHEN_UTENSIL,Batidora,KU:ABC-144,DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD,EUR 92.63,false,null
+kitchen-item-10,chef-03,KITCHEN_UTENSIL,Cuchillo,KU:ABC-173,Utensilio de cocina utilizado para cortar y trocear,EUR 25.00,true,https://example.com/
+kitchen-item-11,chef-04,KITCHEN_UTENSIL,Espatula,KU:AEC-173,Utensilio de cocina utilizado para sacar comida de la sarten o remover,EUR 12.20,true,null
+kitchen-item-12,chef-01,KITCHEN_UTENSIL,Tostadora,KU:EEE-173,Se utiliza para tostar el pan,EUR 61.99,true,null
+kitchen-item-13,chef-02,KITCHEN_UTENSIL,Colador,KU:ABC-859,Herramienta que sirve para eliminar los liquidos de un plato,EUR 5.36,true,https://example.com/
+kitchen-item-14,chef-01,INGREDIENT,Pan,IN:CBC-125,Pan de masa madre,EUR 1.45,true,https://example.com/
+kitchen-item-15,chef-01,KITCHEN_UTENSIL,Sarten grande,KU:CBC-125,Sarten antiadherente grande,EUR 13.65,true,null
+kitchen-item-16,chef-01,INGREDIENT,Patata,IN:CBC-155,Patata de huerto,EUR 0.25,true,null
+kitchen-item-17,chef-01,INGREDIENT,Aceite,IN:AMM-565,Aceite de oliva virgen extra,EUR 6.20,true,https://example.com/
+kitchen-item-18,chef-02,INGREDIENT,Macarrones,IN:MAC-333,Macarrones crudos,EUR 1.20,true,null
+kitchen-item-19,chef-02,KITCHEN_UTENSIL,Olla,KU:OLL-125,Olla con gran capacidad,EUR 15.65,true,null
+kitchen-item-20,chef-03,INGREDIENT,Huevo,IN:HUE-323,Huevos tamaño L,EUR 2.50,true,null
+kitchen-item-21,chef-03,KITCHEN_UTENSIL,Sarten pequeña,KU:SAP-234,Sarten antiadherente pequeña,EUOR 6.29,true,null
