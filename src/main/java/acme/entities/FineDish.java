@@ -36,7 +36,7 @@ public class FineDish extends AbstractEntity {
 	
 	protected Status status;
 	
-	@Pattern(regexp = "^([A-Z]{2}:)?[A-Z]{3}-[0-9]{3}$", message = "wrong pattern, example -> (AA:)AAA:0001. [Inside () is optional]")
+	@Pattern(regexp = "^([A-Z]{2}:)?[A-Z]{3}-[0-9]{3}$", message = "wrong pattern, example -> (AA:)AAA-001. [Inside () is optional]")
 	@Column(unique = true)
 	@NotBlank
 	protected String code;

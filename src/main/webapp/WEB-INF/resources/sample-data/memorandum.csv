@@ -1,0 +1,8 @@
+key,key:fine-dish,serial_code,instantiation-moment,report,optional-link
+memorandum-01,fine-dish-01,FD:AAA-123:0001,2022/02/11 11:00,No entiendo que esta intentando pedir,null
+memorandum-02,fine-dish-03,FD:AAA-223:0002,2012/03/01 22:00,No podemos ejecutar ese plato,https://example.com/
+memorandum-03,fine-dish-04,FD:AAA-122:0003,2005/07/16 22:30,Me llama la atencion esta peticion,null
+memorandum-04,fine-dish-06,FD:BBB-123:0004,2009/05/09 08:00,No,https://example.com/
+memorandum-05,fine-dish-07,FD:ABA-111:0005,2019/10/12 08:25,Podemos intentarlo,null
+memorandum-06,fine-dish-09,FD:AZA-543:0006,2012/12/09 10:00,Necesitamos mayor presupuesto,https://example.com/
+memorandum-07,fine-dish-10,FD:VAZ-675:0007,2013/11/08 08:00,Ahora es buen momento para realizar la peticion,null

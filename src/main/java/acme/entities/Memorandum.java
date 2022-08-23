@@ -33,7 +33,7 @@ public class Memorandum extends AbstractEntity {
 	
 	@NotBlank
 	@Column(unique=true)
-	@Pattern(regexp="^([A-Z]{2}:)?[A-Z]{3}-[0-9]{3}:[0-9]{4}$", message="wrong pattern, example -> (AA:)AAA:0001. [Inside () is optional]")
+	@Pattern(regexp="^([A-Z]{2}:)?[A-Z]{3}-[0-9]{3}:[0-9]{4}$", message="wrong pattern, example -> (AA:)AAA-111:0001. [Inside () is optional]")
 	protected String serialCode;
 	
 	@Past
