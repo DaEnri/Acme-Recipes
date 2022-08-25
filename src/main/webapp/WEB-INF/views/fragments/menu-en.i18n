@@ -24,6 +24,8 @@ master.menu.anonymous.favourite-link-andvarbay = 07269180F: Vargas BayÃ³n, AndrÃ
 
 # master.menu.any #######################################################
 
+master.menu.any.ingredients = Published ingredients
+master.menu.any.kitchenUtensils = Published kitchen utensils
 master.menu.any.peeps = Recent peeps
 
 # master.menu.administrator ###################################################

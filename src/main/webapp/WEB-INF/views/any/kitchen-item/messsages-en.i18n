@@ -1,0 +1,17 @@
+any.kitchenItem.list.label.type = Type
+any.kitchenItem.list.label.name = Name
+any.kitchenItem.list.label.code = Code
+any.kitchenItem.list.label.description = Description
+any.kitchenItem.list.label.retailPrice = Retail Price
+any.kitchenItem.list.label.optionalLink = Optional Link
+any.kitchenItem.list.label.published = Published
+
+any.kitchenItem.form.label.type = Type
+any.kitchenItem.form.label.name = Name
+any.kitchenItem.form.label.code = Code
+any.kitchenItem.form.label.description = Description
+any.kitchenItem.form.label.retailPrice = Retail Price
+any.kitchenItem.form.label.optionalLink = Optional Link
+any.kitchenItem.form.label.published = Published
+
+any.kitchenItem.form.label.tool-kit-filter = Tool Kits with this kitchenItem
