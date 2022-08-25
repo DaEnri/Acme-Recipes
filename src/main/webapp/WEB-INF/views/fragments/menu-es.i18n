@@ -8,7 +8,7 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-﻿# master.menu #################################################################
+# master.menu #################################################################
 
 master.menu.home = Inicio
 master.menu.sign-up = Registrarse
@@ -24,9 +24,9 @@ master.menu.anonymous.favourite-link-andvarbay = 07269180F: Vargas Bayón, Andr�
 
 # master.menu.any #######################################################
 
-
 master.menu.any.ingredients = Ingredientes publicados
 master.menu.any.kitchenUtensils = Utensilios de cocina publicados
+master.menu.any.peeps = Mensajes recientes
 
 # master.menu.administrator ###################################################
 
