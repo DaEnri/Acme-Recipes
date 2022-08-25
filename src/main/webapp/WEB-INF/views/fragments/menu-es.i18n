@@ -22,6 +22,12 @@ master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link-danenrdia = 17480901G: Enríquez Díaz, Daniel
 master.menu.anonymous.favourite-link-andvarbay = 07269180F: Vargas Bayón, Andrés
 
+# master.menu.any #######################################################
+
+
+master.menu.any.ingredients = Ingredientes publicados
+master.menu.any.kitchenUtensils = Utensilios de cocina publicados
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
