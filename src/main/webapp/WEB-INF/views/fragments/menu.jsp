@@ -21,6 +21,8 @@
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-danenrdia" action="https://www.twitch.tv"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-andvarbay" action="https://www.youtube.com/"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.any.peeps" action="/any/peep/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
