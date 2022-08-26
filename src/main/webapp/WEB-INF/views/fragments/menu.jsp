@@ -22,7 +22,13 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-danenrdia" action="https://www.twitch.tv"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-andvarbay" action="https://www.youtube.com/"/>
 			<acme:menu-separator/>
-      <acme:menu-suboption code="master.menu.any.ingredients" action="/any/kitchen-item/list-ingredient"/>
+      		<acme:menu-suboption code="master.menu.any.ingredients" action="/any/kitchen-item/list-ingredient"/>
+			<acme:menu-suboption code="master.menu.any.kitchenUtensils" action="/any/kitchen-item/list-utensil"/>
+			<acme:menu-suboption code="master.menu.any.peeps" action="/any/peep/list"/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
+			<acme:menu-suboption code="master.menu.any.ingredients" action="/any/kitchen-item/list-ingredient"/>
 			<acme:menu-suboption code="master.menu.any.kitchenUtensils" action="/any/kitchen-item/list-utensil"/>
 			<acme:menu-suboption code="master.menu.any.peeps" action="/any/peep/list"/>
 		</acme:menu-option>
