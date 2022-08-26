@@ -36,6 +36,7 @@
 		<acme:menu-option code="master.menu.chef" access="hasRole('Chef')">
 			<acme:menu-suboption code="master.menu.chef.ingredients" action="/chef/kitchen-item/list-ingredient"/>
 			<acme:menu-suboption code="master.menu.chef.kitchenUtensils" action="/chef/kitchen-item/list-utensil"/>
+			<acme:menu-suboption code="master.menu.chef.fineDishes" action="/chef/fine-dish/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

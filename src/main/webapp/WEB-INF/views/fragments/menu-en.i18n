@@ -38,6 +38,7 @@ master.menu.any.peeps = Recent peeps
 master.menu.chef = Chef
 master.menu.chef.ingredients = My ingredients
 master.menu.chef.kitchenUtensils = My kitchen utensils
+master.menu.chef.fineDishes = My fine dishes
 
 # master.menu.administrator ###################################################
 
