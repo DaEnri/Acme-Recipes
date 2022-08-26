@@ -1,0 +1,15 @@
+<%@page language="java"%>
+
+<%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="acme" uri="urn:jsptagdir:/WEB-INF/tags"%>
+
+<h1>
+	<acme:message code="any.user-account.list.title"/>
+</h1>
+
+<acme:list>
+	<acme:list-column code="any.user-account.list.label.username" path="username"/>
+	<acme:list-column code="any.user-account.list.label.name" path="identity.name"/>
+	<acme:list-column code="any.user-account.list.label.surname" path="identity.surname"/>
+	<acme:list-column code="any.user-account.list.label.roles" path="roleList"/>
+</acme:list>

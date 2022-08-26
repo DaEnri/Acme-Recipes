@@ -32,6 +32,7 @@ master.menu.any = Todos
 master.menu.any.ingredients = Ingredientes publicados
 master.menu.any.kitchenUtensils = Utensilios de cocina publicados
 master.menu.any.peeps = Mensajes recientes
+master.menu.any.user-accounts = Usuarios
 
 # master.menu.chef #######################################################
 
