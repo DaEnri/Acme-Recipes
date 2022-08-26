@@ -38,6 +38,7 @@ master.menu.any.peeps = Mensajes recientes
 master.menu.chef = Chef
 master.menu.chef.ingredients = Mis ingredientes
 master.menu.chef.kitchenUtensils = Mis utensilios de cocina
+master.menu.chef.fineDishes = Mis platos finos
 
 # master.menu.administrator ###################################################
 

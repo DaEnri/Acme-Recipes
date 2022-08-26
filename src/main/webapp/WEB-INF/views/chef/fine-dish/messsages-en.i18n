@@ -1,0 +1,22 @@
+chef.fineDish.list.label.status = Status
+chef.fineDish.list.label.code = Code
+chef.fineDish.list.label.request = Request	
+chef.fineDish.list.label.budget = Budget
+chef.fineDish.list.label.creationDate = Creation Date
+chef.fineDish.list.label.startDate = Start Date
+chef.fineDish.list.label.finishDate = Finish Date
+chef.fineDish.list.label.moreInfo = More Information
+chef.fineDish.list.label.published = Published
+
+chef.fineDish.form.label.status = Status
+chef.fineDish.form.label.code = Code
+chef.fineDish.form.label.request = Request
+chef.fineDish.form.label.budget = Budget
+chef.fineDish.form.label.creationDate = Creation Date
+chef.fineDish.form.label.startDate = Start Date
+chef.fineDish.form.label.finishDate = Finish Date
+chef.fineDish.form.label.moreInfo = More Information
+chef.fineDish.form.label.published = Published
+
+chef.fineDish.form.button.update = Update
+chef.fineDish.form.button.epicure = Epicure
