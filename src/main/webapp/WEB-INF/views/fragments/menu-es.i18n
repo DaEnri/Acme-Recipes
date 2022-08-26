@@ -28,9 +28,16 @@ master.menu.authenticated = Autenticado
 
 # master.menu.any #######################################################
 
+master.menu.any = Todos
 master.menu.any.ingredients = Ingredientes publicados
 master.menu.any.kitchenUtensils = Utensilios de cocina publicados
 master.menu.any.peeps = Mensajes recientes
+
+# master.menu.chef #######################################################
+
+master.menu.chef = Chef
+master.menu.chef.ingredients = Mis ingredientes
+master.menu.chef.kitchenUtensils = Mis utensilios de cocina
 
 # master.menu.administrator ###################################################
 
