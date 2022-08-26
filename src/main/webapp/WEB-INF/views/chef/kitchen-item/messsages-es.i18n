@@ -1,0 +1,24 @@
+chef.kitchenItem.list.label.type = Tipo
+chef.kitchenItem.list.label.name = Nombre
+chef.kitchenItem.list.label.code = Código
+chef.kitchenItem.list.label.description = Descripción
+chef.kitchenItem.list.label.retailPrice = Precio Minorista
+chef.kitchenItem.list.label.optionalLink = Enlace Opcional
+chef.kitchenItem.list.label.published = Publicado
+chef.kitchenItem.list.button.create = Crear
+
+chef.kitchenItem.form.label.type = Tipo
+chef.kitchenItem.form.label.name = Nombre
+chef.kitchenItem.form.label.code = Código
+chef.kitchenItem.form.label.description = Descripción
+chef.kitchenItem.form.label.retailPrice = Precio
+chef.kitchenItem.form.label.optionalLink = Enlace
+chef.kitchenItem.form.label.published = Publicado 
+chef.kitchenItem.form.button.update = Actualizar
+chef.kitchenItem.form.button.delete = Borrar
+chef.kitchenItem.form.button.publish = Publicar
+chef.kitchenItem.form.button.create = Crear
+
+chef.kitchenItem.form.error.duplicated = Este código no está libre
+chef.kitchenItem.form.error.retailPrice.amount = El precio debe ser mayor de 0
+chef.kitchenItem.form.error.retailPrice.currency = La divisa especificada no es válida

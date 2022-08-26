@@ -1,0 +1,24 @@
+chef.kitchenItem.list.label.type = Type
+chef.kitchenItem.list.label.name = Name
+chef.kitchenItem.list.label.code = Code
+chef.kitchenItem.list.label.description = Description
+chef.kitchenItem.list.label.retailPrice = Retail Price
+chef.kitchenItem.list.label.optionalLink = Optional Link
+chef.kitchenItem.list.label.published = Published
+chef.kitchenItem.list.button.create = Create
+
+chef.kitchenItem.form.label.type = Type
+chef.kitchenItem.form.label.name = Name
+chef.kitchenItem.form.label.code = Code
+chef.kitchenItem.form.label.description = Description
+chef.kitchenItem.form.label.retailPrice = Retail Price
+chef.kitchenItem.form.label.optionalLink = Optional Link
+chef.kitchenItem.form.label.published = Published
+chef.kitchenItem.form.button.update = Update
+chef.kitchenItem.form.button.delete = Delete
+chef.kitchenItem.form.button.publish = Publish
+chef.kitchenItem.form.button.create = Create
+
+chef.kitchenItem.form.error.duplicated = This code is taken
+chef.kitchenItem.form.error.retailPrice.amount = Retail Price must be higher than 0
+chef.kitchenItem.form.error.retailPrice.currency = The specified currency is not accepted
