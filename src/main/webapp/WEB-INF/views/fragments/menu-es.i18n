@@ -41,6 +41,11 @@ master.menu.chef.ingredients = Mis ingredientes
 master.menu.chef.kitchenUtensils = Mis utensilios de cocina
 master.menu.chef.fineDishes = Mis platos finos
 
+# master.menu.epicure #######################################################
+
+master.menu.epicure = Sibarita
+master.menu.epicure.fineDishes = Mis platos finos
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador

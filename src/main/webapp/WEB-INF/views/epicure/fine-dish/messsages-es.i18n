@@ -1,0 +1,34 @@
+patron.fineDish.list.label.status = Estado
+patron.fineDish.list.label.code = Código
+patron.fineDish.list.label.request = Petición
+patron.fineDish.list.label.budget = Presupuesto
+patron.fineDish.list.label.creationDate = Fecha de Creación
+patron.fineDish.list.label.startDate = Fecha de Inicio
+patron.fineDish.list.label.finishDate = Fecha de Fin
+patron.fineDish.list.label.moreInfo = Más Información
+patron.fineDish.list.label.published = Publicado
+
+patron.fineDish.list.button.create = Crear plato fino
+
+patron.fineDish.form.label.status = Estado
+patron.fineDish.form.label.code = Código
+patron.fineDish.form.label.request = Petición
+patron.fineDish.form.label.budget = Presupuesto
+patron.fineDish.form.label.creationDate = Fecha de creación
+patron.fineDish.form.label.startDate = Fecha de inicio
+patron.fineDish.form.label.finishDate = Fecha de fin
+patron.fineDish.form.label.moreInfo = Más información
+patron.fineDish.form.label.published = Publicado
+patron.fineDish.form.label.chef = Elige chef
+patron.fineDish.form.button.update = Actualizar
+patron.fineDish.form.button.delete = Eliminar
+patron.fineDish.form.button.publish = Publicar
+patron.fineDish.form.button.create = Crear
+
+patron.fineDish.form.error.code = Existe otro plato fino con el mismo codigo. Elige otro codigo
+patron.fineDish.form.error.budget.amount = La cantidad del plato fino debe ser mayor a cero
+patron.fineDish.form.error.budget.currency = La divisa especificada no es aceptada
+patron.fineDish.form.error.startDate = La fecha de inicio del plato fino debe ser al menos un mes despues de su creacion
+patron.fineDish.form.error.finishDate = La duracion del plato fino debe ser de un mes al menos
+
+patron.fineDish.form.button.chef = Chef
