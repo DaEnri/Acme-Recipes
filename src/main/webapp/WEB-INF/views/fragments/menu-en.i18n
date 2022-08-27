@@ -40,6 +40,7 @@ master.menu.chef = Chef
 master.menu.chef.ingredients = My ingredients
 master.menu.chef.kitchenUtensils = My kitchen utensils
 master.menu.chef.fineDishes = My fine dishes
+master.menu.chef.memorandum = My memorandums
 
 # master.menu.epicure #######################################################
 
