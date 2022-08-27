@@ -1,0 +1,34 @@
+epicure.fineDish.list.label.status = Estado
+epicure.fineDish.list.label.code = Código
+epicure.fineDish.list.label.request = Petición
+epicure.fineDish.list.label.budget = Presupuesto
+epicure.fineDish.list.label.creationDate = Fecha de Creación
+epicure.fineDish.list.label.startDate = Fecha de Inicio
+epicure.fineDish.list.label.finishDate = Fecha de Fin
+epicure.fineDish.list.label.moreInfo = Más Información
+epicure.fineDish.list.label.published = Publicado
+
+epicure.fineDish.list.button.create = Crear plato fino
+
+epicure.fineDish.form.label.status = Estado
+epicure.fineDish.form.label.code = Código
+epicure.fineDish.form.label.request = Petición
+epicure.fineDish.form.label.budget = Presupuesto
+epicure.fineDish.form.label.creationDate = Fecha de creación
+epicure.fineDish.form.label.startDate = Fecha de inicio
+epicure.fineDish.form.label.finishDate = Fecha de fin
+epicure.fineDish.form.label.moreInfo = Más información
+epicure.fineDish.form.label.published = Publicado
+epicure.fineDish.form.label.chef = Elige chef
+epicure.fineDish.form.button.update = Actualizar
+epicure.fineDish.form.button.delete = Eliminar
+epicure.fineDish.form.button.publish = Publicar
+epicure.fineDish.form.button.create = Crear
+
+epicure.fineDish.form.error.code = Existe otro plato fino con el mismo codigo. Elige otro codigo
+epicure.fineDish.form.error.budget.amount = La cantidad del plato fino debe ser mayor a cero
+epicure.fineDish.form.error.budget.currency = La divisa especificada no es aceptada
+epicure.fineDish.form.error.startDate = La fecha de inicio del plato fino debe ser al menos un mes despues de su creacion
+epicure.fineDish.form.error.finishDate = La duracion del plato fino debe ser de un mes al menos
+
+epicure.fineDish.form.button.chef = Chef

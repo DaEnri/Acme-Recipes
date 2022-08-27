@@ -1,0 +1,34 @@
+epicure.fineDish.list.label.status = Status
+epicure.fineDish.list.label.code = Code
+epicure.fineDish.list.label.request = Request	
+epicure.fineDish.list.label.budget = Budget
+epicure.fineDish.list.label.creationDate = Creation Date
+epicure.fineDish.list.label.startDate = Start Date
+epicure.fineDish.list.label.finishDate = Finish Date
+epicure.fineDish.list.label.moreInfo = More Information
+epicure.fineDish.list.label.published = Published
+
+epicure.fineDish.list.button.create = Create fine dish
+
+epicure.fineDish.form.label.status = Status
+epicure.fineDish.form.label.code = Code
+epicure.fineDish.form.label.request = Request
+epicure.fineDish.form.label.budget = Budget
+epicure.fineDish.form.label.creationDate = Creation Date
+epicure.fineDish.form.label.startDate = Start Date
+epicure.fineDish.form.label.finishDate = Finish Date
+epicure.fineDish.form.label.moreInfo = More Information
+epicure.fineDish.form.label.published = Published
+epicure.fineDish.form.label.chef = Choose chef
+epicure.fineDish.form.button.update = Update
+epicure.fineDish.form.button.delete = Delete
+epicure.fineDish.form.button.publish = Publish
+epicure.fineDish.form.button.create = Create
+
+epicure.fineDish.form.error.code = There is another fine dish with the same code. Choose another code
+epicure.fineDish.form.error.budget.amount = The budget of the fine dish must be higher than zero
+epicure.fineDish.form.error.budget.currency = The specified currency is not accepted
+epicure.fineDish.form.error.startDate = The start date of the fine dish must be at least one month after it's creation
+epicure.fineDish.form.error.finishDate = The duration of the fine dish must be of one month at least
+
+epicure.fineDish.form.button.chef = Chef
