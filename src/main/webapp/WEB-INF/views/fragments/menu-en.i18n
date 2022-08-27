@@ -32,6 +32,7 @@ master.menu.any = All
 master.menu.any.ingredients = Published ingredients
 master.menu.any.kitchenUtensils = Published kitchen utensils
 master.menu.any.peeps = Recent peeps
+master.menu.any.user-accounts = Users
 
 # master.menu.chef #######################################################
 
