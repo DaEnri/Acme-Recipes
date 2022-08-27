@@ -1,0 +1,9 @@
+authenticated.bulletin.form.label.heading = Titular
+authenticated.bulletin.form.label.moment = Momento de instanciación
+authenticated.bulletin.form.label.critical = Criticidad
+authenticated.bulletin.form.label.text = Texto
+authenticated.bulletin.form.label.url = URL
+
+authenticated.bulletin.list.label.moment = Momento de instanciación
+authenticated.bulletin.list.label.heading = Titular
+authenticated.bulletin.list.label.critical = Criticidad
