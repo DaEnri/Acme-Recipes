@@ -18,7 +18,7 @@
 	<acme:input-url code="chef.fineDish.form.label.moreInfo" path="moreInfo" readonly="true"/>
 	<acme:input-checkbox code="chef.fineDish.form.label.published" path="published" readonly="true"/>
 	
-	<acme:button code="chef.fineDish.form.button.epicure" action="/any/user-account/show?id=${patronId}"/>
+	<acme:button code="chef.fineDish.form.button.epicure" action="/any/user-account/show?id=${epicureId}"/>
 	
 <%--
 	<jstl:choose>	 
