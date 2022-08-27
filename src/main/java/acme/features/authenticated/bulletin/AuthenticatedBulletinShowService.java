@@ -1,5 +1,8 @@
 package acme.features.authenticated.bulletin;
 
+import java.util.Calendar;
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,7 +26,24 @@ public class AuthenticatedBulletinShowService implements AbstractShowService<Aut
 	public boolean authorise(final Request<Bulletin> request) {
 		assert request != null;
 		
-		return true;
+		Calendar calendar;
+		Date deadline;
+		
+		calendar = Calendar.getInstance();
+		calendar.add(Calendar.MONTH, -1);
+		deadline = calendar.getTime();
+		
+		Bulletin b;
+		int id;
+		
+		id = request.getModel().getInteger("id");
+		b = this.repository.findOneBulletinById(id);
+		
+		Boolean result;
+		
+		result = b.getInstantiationMoment().after(deadline);
+		
+		return result;
 	}
 
 	@Override
