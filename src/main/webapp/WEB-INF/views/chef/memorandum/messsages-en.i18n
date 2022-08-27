@@ -1,0 +1,14 @@
+chef.memorandum.list.label.instantiationMoment = Instantiation moment
+chef.memorandum.list.label.report = Report
+chef.memorandum.list.label.optionalLink = Optional Link
+chef.memorandum.list.label.serialCode = Serial Code
+chef.memorandum.list.button.create = Create
+
+chef.memorandum.form.label.instantiationMoment = Instantiation moment
+chef.memorandum.form.label.report = Report
+chef.memorandum.form.label.optionalLink = Optional Link
+chef.memorandum.form.label.serialCode = Serial Code
+chef.memorandum.form.label.fineDishCode = Fine dish code
+chef.memorandum.form.label.fineDishRequest = Fine dish request
+chef.memorandum.form.label.confirmation = Confirm the creation
+chef.memorandum.form.button.create = Create
