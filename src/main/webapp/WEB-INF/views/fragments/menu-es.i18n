@@ -25,6 +25,7 @@ master.menu.anonymous.favourite-link-andvarbay = 07269180F: Vargas BayÃ³n, AndrÃ
 # master.menu.authenticated #######################################################
 
 master.menu.authenticated = Autenticado
+master.menu.authenticated.bulletin = Lista de boletines
 
 # master.menu.any #######################################################
 

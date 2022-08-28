@@ -1,0 +1,9 @@
+authenticated.bulletin.form.label.heading = Heading
+authenticated.bulletin.form.label.moment = Instantiation moment
+authenticated.bulletin.form.label.critical = Criticality
+authenticated.bulletin.form.label.text = Text
+authenticated.bulletin.form.label.url = URL
+
+authenticated.bulletin.list.label.moment = Instantiation moment
+authenticated.bulletin.list.label.heading = Heading
+authenticated.bulletin.list.label.critical = Criticality
