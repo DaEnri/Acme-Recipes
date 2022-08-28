@@ -26,6 +26,7 @@ master.menu.anonymous.favourite-link-andvarbay = 07269180F: Vargas Bayón, Andr�
 
 master.menu.authenticated = Autenticado
 master.menu.authenticated.bulletin = Lista de boletines
+master.menu.authenticated.system-configuration = Información de las divisas
 
 # master.menu.any #######################################################
 

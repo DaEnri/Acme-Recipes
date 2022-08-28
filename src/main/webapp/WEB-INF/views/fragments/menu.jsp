@@ -35,6 +35,7 @@
 			<acme:menu-suboption code="master.menu.any.user-accounts" action="/any/user-account/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.bulletin" action="/authenticated/bulletin/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.system-configuration" action="/authenticated/system-configuration/show"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.chef" access="hasRole('Chef')">
