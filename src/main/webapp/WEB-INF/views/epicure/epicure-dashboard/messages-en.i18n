@@ -1,0 +1,13 @@
+epicure.epicure-dashboard.form.title = Epicures Metrics
+
+epicure.epicure-dashboard.form.count-fineDishes = Total number of fine dishes of status
+epicure.epicure-dashboard.form.average-fineDishes = Average budget of fine dishes by status and currency
+epicure.epicure-dashboard.form.deviation-fineDishes = Deviation budget of fine dishes by status and currency
+epicure.epicure-dashboard.form.minimum-fineDishes = Minimum budget of fine dishes by status and currency
+epicure.epicure-dashboard.form.maximum-fineDishes = Maximum budget of fine dishes by status and currency
+
+epicure.epicure-dashboard.form.count-fineDishes-caption = The total number of fine dishes grouped by status
+epicure.epicure-dashboard.form.average-fineDishes-caption =The average budget of fine dishes grouped by status and currency
+epicure.epicure-dashboard.form.deviation-fineDishes-caption = The standard deviation budget of fine dishes grouped by status and currency
+epicure.epicure-dashboard.form.minimum-fineDishes-caption = The minimum budget of fine dishes grouped by status and currency
+epicure.epicure-dashboard.form.maximum-fineDishes-caption = The maximum budget of fine dishes grouped by status and currency
