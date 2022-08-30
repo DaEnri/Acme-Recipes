@@ -34,10 +34,10 @@ public class AdminDashboard implements Serializable{
 	
 	Map<Status, Integer>				totalNumberFineDishesOfStatus;
 	
-	Money								averageBudgetFineDishesOfStatus;
-	Money								deviationBudgetFineDishesOfStatus;
-	Money								minimumBudgetFineDishesOfStatus;
-	Money								maximumBudgetFineDishesOfStatus;
+	Map<Status, Money>					averageBudgetFineDishesOfStatus;
+	Map<Status, Money>					deviationBudgetFineDishesOfStatus;
+	Map<Status, Money>					minimumBudgetFineDishesOfStatus;
+	Map<Status, Money>					maximumBudgetFineDishesOfStatus;
 	
 	// Derived attributes -----------------------------------------------------
 

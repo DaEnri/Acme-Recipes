@@ -1,0 +1,36 @@
+administrator.admin-dashboard.form.ingredients = Ingredients Metrics
+administrator.admin-dashboard.form.kitchen-utensils = Kitchen Utensils Metrics
+administrator.admin-dashboard.form.fine-dishes = Fine Dishes Metrics
+
+administrator.admin-dashboard.form.title = Administrator Metrics
+administrator.admin-dashboard.form.count-ingredients = Total Number of Components
+administrator.admin-dashboard.form.average-ingredients = Average retail price of ingredients by technology and currency
+administrator.admin-dashboard.form.deviation-ingredients = Deviation retail price of ingredients by technology and currency
+administrator.admin-dashboard.form.minimum-ingredients = Minimum retail price of ingredients by technology and currency
+administrator.admin-dashboard.form.maximum-ingredients = Maximum retail price of ingredients by technology and currency
+administrator.admin-dashboard.form.count-kitchen-utensils = Total Number of Tools
+administrator.admin-dashboard.form.average-kitchen-utensils = Average retail price of kitchen utensils by currency
+administrator.admin-dashboard.form.deviation-kitchen-utensils = Deviation retail price of kitchen utensils by currency
+administrator.admin-dashboard.form.minimum-kitchen-utensils = Minimum retail price of kitchen utensils by currency
+administrator.admin-dashboard.form.maximum-kitchen-utensils = Maximum retail price of kitchen utensils by currency
+administrator.admin-dashboard.form.count-fine-dishes = Total number of fine dishes of status
+administrator.admin-dashboard.form.average-fine-dishes = Average budget of fine dishes of status
+administrator.admin-dashboard.form.deviation-fine-dishes = Deviation budget of fine dishes of status
+administrator.admin-dashboard.form.minimum-fine-dishes = Minimum budget of fine dishes of status
+administrator.admin-dashboard.form.maximum-fine-dishes = Maximum budget of fine dishes of status
+
+administrator.admin-dashboard.form.count-ingredients-caption = The total number of ingredients
+administrator.admin-dashboard.form.average-ingredients-caption = The average retail price of all the ingredients grouped by technology and currency
+administrator.admin-dashboard.form.deviation-ingredients-caption = The standard deviation of the retail price of all the ingredients grouped by technology and currency
+administrator.admin-dashboard.form.minimum-ingredients-caption = The minimum retail price of all the ingredients grouped by technology and currency
+administrator.admin-dashboard.form.maximum-ingredients-caption = The maximum retail price of all the ingredients grouped by technology and currency
+administrator.admin-dashboard.form.count-kitchen-utensils-caption = The total number of kitchen utensils
+administrator.admin-dashboard.form.average-kitchen-utensils-caption = The average retail price of all the kitchen utensils grouped by currency
+administrator.admin-dashboard.form.deviation-kitchen-utensils-caption = The standard deviation of the retail price of all the kitchen utensils grouped by currency
+administrator.admin-dashboard.form.minimum-kitchen-utensils-caption = The minimum retail price of all the kitchen utensils grouped by currency
+administrator.admin-dashboard.form.maximum-kitchen-utensils-caption = The maximum retail price of all the kitchen utensils grouped by currency
+administrator.admin-dashboard.form.count-fine-dishes-caption = The total number of fine dishes grouped by status
+administrator.admin-dashboard.form.average-fine-dishes-caption = The average budget of all the fine dishes grouped by status
+administrator.admin-dashboard.form.deviation-fine-dishes-caption = The standard deviation of budget of all the fine dishes grouped by status
+administrator.admin-dashboard.form.minimum-fine-dishes-caption = The minimum budget of all the fine dishes grouped by status
+administrator.admin-dashboard.form.maximum-fine-dishes-caption = The maximum budget of all the fine dishes grouped by status
