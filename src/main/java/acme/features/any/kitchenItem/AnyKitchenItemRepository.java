@@ -20,4 +20,7 @@ public interface AnyKitchenItemRepository extends AbstractRepository{
 	
 	@Query("select i from KitchenItem i where i.published = true")
 	Collection<KitchenItem> findAllIfPublished();
+	
+	@Query("select q.kitchenItem from Quantity q where q.recipe.id = :recipeId")
+	Collection<KitchenItem> findAllKitchenItemsOfRecipe(Integer recipeId);
 }

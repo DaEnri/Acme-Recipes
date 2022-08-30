@@ -1,0 +1,15 @@
+any.recipe.form.label.code = Codigo:
+any.recipe.form.label.heading = Cabecera:
+any.recipe.form.label.description = Descripcion:
+any.recipe.form.label.preparation-notes = Notas de Preparacion:
+any.recipe.form.label.total-money = Coste de todos los ingredientes y utensilios de cocina de la receta:
+any.recipe.form.label.optional-link = Link Opcional:
+any.recipe.list.label.chef-username = Creado por el usuario:
+
+any.recipe.list.title = Listing of tool kits
+
+any.recipe.list.label.code = Codigo
+any.recipe.list.label.heading = Cabecera
+any.recipe.list.label.chef-username = Creado por el usuario
+
+any.recipe.form.label.recipe-items = Ingredientes y utensilios de cocina de esta receta

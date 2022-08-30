@@ -12,13 +12,13 @@ import acme.framework.roles.Any;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnyRecipeListService implements AbstractListService<Any, Recipe>{
+public class AnyRecipeListKitchenItemFilterService implements AbstractListService<Any, Recipe> {
 	
 	// Internal state ---------------------------------------------------------
 	
 	@Autowired
 	protected AnyRecipeRepository repository;
-	
+		
 	// AbstractListService<Any, Recipe> interface -----------------------------
 	
 	@Override
@@ -35,7 +35,11 @@ public class AnyRecipeListService implements AbstractListService<Any, Recipe>{
 		
 		Collection<Recipe> result;
 		
-		result = this.repository.findAllPublishedRecipes();
+		Integer itemId;
+		
+		itemId = request.getModel().getInteger("itemId");
+		
+		result = this.repository.getRecipesWithKitchenItemById(itemId);
 		
 		return result;
 	}
