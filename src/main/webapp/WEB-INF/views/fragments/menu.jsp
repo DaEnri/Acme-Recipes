@@ -48,6 +48,7 @@
 		<acme:menu-option code="master.menu.epicure" access="hasRole('Epicure')">
 			<acme:menu-suboption code="master.menu.epicure.fineDishes" action="/epicure/fine-dish/list"/>
 			<acme:menu-suboption code="master.menu.epicure.memorandum" action="/epicure/memorandum/list"/>
+			<acme:menu-suboption code="master.menu.epicure.epicure-dashboard" action="/epicure/epicure-dashboard/show"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -59,6 +60,7 @@
 			<acme:menu-suboption code="master.menu.administrator.shut-down" action="/administrator/shut-down"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.system-configuration" action="/administrator/system-configuration/show"/>
+			<acme:menu-suboption code="master.menu.administrator.administrator-dashboard" action="/administrator/admin-dashboard/show"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
