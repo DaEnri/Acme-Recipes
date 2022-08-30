@@ -25,6 +25,8 @@ master.menu.anonymous.favourite-link-andvarbay = 07269180F: Vargas Bayón, Andr�
 # master.menu.authenticated #######################################################
 
 master.menu.authenticated = Autenticado
+master.menu.authenticated.bulletin = Lista de boletines
+master.menu.authenticated.system-configuration = Información de las divisas
 
 # master.menu.any #######################################################
 
@@ -40,11 +42,13 @@ master.menu.chef = Chef
 master.menu.chef.ingredients = Mis ingredientes
 master.menu.chef.kitchenUtensils = Mis utensilios de cocina
 master.menu.chef.fineDishes = Mis platos finos
+master.menu.chef.memorandum = Mis memorandums
 
 # master.menu.epicure #######################################################
 
 master.menu.epicure = Sibarita
 master.menu.epicure.fineDishes = Mis platos finos
+master.menu.epicure.memorandum = Mi memoranda
 
 # master.menu.administrator ###################################################
 
@@ -54,6 +58,7 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.populate-initial = Poblar BD (inicial)
 master.menu.administrator.populate-sample = Poblar BD (ejemplos)
 master.menu.administrator.shut-down = Parar el sistema
+master.menu.administrator.system-configuration = Configuracion
 
 # master.menu.provider ########################################################
 

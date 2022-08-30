@@ -1,0 +1,36 @@
+administrator.admin-dashboard.form.ingredients = Metricas de Ingredientes
+administrator.admin-dashboard.form.kitchen-utensils = Metricas de Herramientas de Cocina
+administrator.admin-dashboard.form.fine-dishes = Metricas de Platos Finos
+
+administrator.admin-dashboard.form.title = Metricas de Administrador
+administrator.admin-dashboard.form.count-ingredients = Numero Total de ingredientes
+administrator.admin-dashboard.form.average-ingredients = Precio de venta medio de ingredientes por divisa
+administrator.admin-dashboard.form.deviation-ingredients = Desviacion tipica del precio de venta de ingredientes por divisa
+administrator.admin-dashboard.form.minimum-ingredients = Minimo precio de venta de ingredientes por divisa
+administrator.admin-dashboard.form.maximum-ingredients = Maximo precio de venta de ingredientes por divisa
+administrator.admin-dashboard.form.count-kitchen-utensils = Numero Total de herramientas de cocina
+administrator.admin-dashboard.form.average-kitchen-utensils = Precio de venta medio de herramientas de cocina por divisa
+administrator.admin-dashboard.form.deviation-kitchen-utensils = Desviacion tipica del precio de venta de herramientas de cocina por divisa
+administrator.admin-dashboard.form.minimum-kitchen-utensils = Minimo precio de venta de herramientas de cocina por divisa
+administrator.admin-dashboard.form.maximum-kitchen-utensils = Maximo precio de venta de herramientas de cocina por divisa
+administrator.admin-dashboard.form.count-fine-dishes = Numero Total de platos finos por estado
+administrator.admin-dashboard.form.average-fine-dishes =  Presupuesto medio de platos finos por estado
+administrator.admin-dashboard.form.deviation-fine-dishes = Desviacion tipica del presupuesto de platos finos por estado
+administrator.admin-dashboard.form.minimum-fine-dishes = Minimo presupuesto de platos finos por estado
+administrator.admin-dashboard.form.maximum-fine-dishes = Maximo presupuesto de platos finos por estado
+
+administrator.admin-dashboard.form.count-ingredients-caption = El numero total de ingredientes
+administrator.admin-dashboard.form.average-ingredients-caption = El precio de venta medio de todos los ingredientes agrupado por divisa
+administrator.admin-dashboard.form.deviation-ingredients-caption = La desviacion tipica del precio de venta de todos los ingredientes agrupado por divisa
+administrator.admin-dashboard.form.minimum-ingredients-caption = El precio de venta minimo de todos los ingredientes agrupado por divisa
+administrator.admin-dashboard.form.maximum-ingredients-caption = El precio de venta maximo de todos los ingredientes agrupado por divisa
+administrator.admin-dashboard.form.count-kitchen-utensils-caption = El numero total de herramientas de cocina
+administrator.admin-dashboard.form.average-kitchen-utensils-caption = El precio de venta medio de todas las herramientas de cocina agrupado por divisa
+administrator.admin-dashboard.form.deviation-kitchen-utensils-caption = La desviacion tipica del precio de venta de todas las herramientas de cocina agrupado por divisa
+administrator.admin-dashboard.form.minimum-kitchen-utensils-caption = El precio de venta minimo de todas las herramientas de cocina agrupado por divisa
+administrator.admin-dashboard.form.maximum-kitchen-utensils-caption = El precio de venta maximo de todas las herramientas de cocina agrupado por divisa
+administrator.admin-dashboard.form.count-fine-dishes-caption = El numero total de platos finos agrupado por su estado
+administrator.admin-dashboard.form.average-fine-dishes-caption = El presupuesto medio de los platos finos agrupado por su estado
+administrator.admin-dashboard.form.deviation-fine-dishes-caption = La desviacion tipica del presupuesto de los platos finos agrupado por su estado
+administrator.admin-dashboard.form.minimum-fine-dishes-caption = El minimo presupuesto de los platos finos agrupado por su estado
+administrator.admin-dashboard.form.maximum-fine-dishes-caption = El maximo presupuesto de los platos finos agrupado por su estado
