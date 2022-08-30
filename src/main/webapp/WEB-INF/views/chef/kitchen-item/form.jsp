@@ -15,7 +15,7 @@
 	<acme:input-url code="chef.kitchenItem.form.label.optionalLink" path="optionalLink"/>
 	<acme:input-checkbox code="chef.kitchenItem.form.label.published" path="published" readonly="true"/>
 	
-<%--	<jstl:choose>	 
+	<jstl:choose>	 
 		<jstl:when test="${acme:anyOf(command, 'show, update, delete, publish') && published == false}">
 			<acme:submit code="chef.kitchenItem.form.button.update" action="/chef/kitchen-item/update"/>
 			<acme:submit code="chef.kitchenItem.form.button.delete" action="/chef/kitchen-item/delete"/>
@@ -25,6 +25,6 @@
 			<acme:submit code="chef.kitchenItem.form.button.create" action="/chef/kitchen-item/create"/>
 		</jstl:when>		
 	</jstl:choose>
---%>
+
 	
 </acme:form>
