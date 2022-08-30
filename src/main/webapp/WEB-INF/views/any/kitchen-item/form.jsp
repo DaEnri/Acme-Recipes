@@ -12,7 +12,6 @@
 	<acme:input-textbox code="any.kitchenItem.form.label.code" path="code" readonly="true"/>	
 	<acme:input-textbox code="any.kitchenItem.form.label.description" path="description" readonly="true"/>
 	<acme:input-money code="any.kitchenItem.form.label.retailPrice" path="retailPrice" readonly="true"/>
-	<acme:input-money code="any.kitchenItem.form.label.defaultRetailPrice" path="defaultRetailPrice" readonly="true"/>
 	<acme:input-textbox code="any.kitchenItem.form.label.optionalLink" path="optionalLink" readonly="true"/>
 	<acme:input-textbox code="any.kitchenItem.form.label.published" path="published" readonly="true"/>
 	

@@ -3,7 +3,6 @@ any.kitchenItem.list.label.name = Nombre
 any.kitchenItem.list.label.code = Código
 any.kitchenItem.list.label.description = Descripción
 any.kitchenItem.list.label.retailPrice = Precio Minorista
-any.kitchenItem.list.label.defaultRetailPrice = Precio Minorista (Divisa por defecto)
 any.kitchenItem.list.label.optionalLink = Enlace Opcional
 any.kitchenItem.list.label.published = Publicado
 
@@ -12,7 +11,6 @@ any.kitchenItem.form.label.name = Nombre
 any.kitchenItem.form.label.technology = Presupuesto
 any.kitchenItem.form.label.description = Descripción
 any.kitchenItem.form.label.retailPrice = Precio Minorista
-any.kitchenItem.form.label.defaultRetailPrice = Precio Minorista (Divisa por defecto)
 any.kitchenItem.form.label.optionalLink = Enlace Opcional
 any.kitchenItem.form.label.published = Publicado
 
