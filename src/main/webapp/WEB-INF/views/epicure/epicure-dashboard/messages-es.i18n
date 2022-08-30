@@ -1,0 +1,13 @@
+epicure.epicure-dashboard.form.title = Metricas de Sibaritas
+
+epicure.epicure-dashboard.form.count-fineDishes = Numero total de platos finos por estado
+epicure.epicure-dashboard.form.average-fineDishes = Presupuesto medio de platos finos por estado y divisa
+epicure.epicure-dashboard.form.deviation-fineDishes = Desviacion tipica del presupuesto de platos finos por estado y divisa
+epicure.epicure-dashboard.form.minimum-fineDishes = Minimo presupuesto de platos finos por estado y divisa
+epicure.epicure-dashboard.form.maximum-fineDishes = Maximo presupuesto de platos finos por estado y divisa
+
+epicure.epicure-dashboard.form.count-fineDishes-caption = El numero total de platos finos agrupado por estado
+epicure.epicure-dashboard.form.average-fineDishes-caption = El presupuesto medio de platos finos agrupado por estado y divisa
+epicure.epicure-dashboard.form.deviation-fineDishes-caption = La desviacion tipica del presupuesto de platos finos agrupado por estado y divisa
+epicure.epicure-dashboard.form.minimum-fineDishes-caption = El minimo presupuesto de platos finos agrupado por estado y divisa
+epicure.epicure-dashboard.form.maximum-fineDishes-caption = El maximo presupuesto de platos finos agrupado por estado y divisa
