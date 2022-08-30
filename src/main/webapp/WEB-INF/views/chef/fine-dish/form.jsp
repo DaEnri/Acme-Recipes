@@ -20,13 +20,13 @@
 	
 	<acme:button code="chef.fineDish.form.button.epicure" action="/any/user-account/show?id=${epicureId}"/>
 	
-<%--
+
 	<jstl:choose>	 
 		<jstl:when test="${acme:anyOf(command, 'show, update') && published == true && status == 'PROPOSED'}">
 			<acme:submit code="chef.fineDish.form.button.update" action="/chef/fine-dish/update"/>
 		</jstl:when>		
 	</jstl:choose>
---%>	
+	
 
 </acme:form>
 

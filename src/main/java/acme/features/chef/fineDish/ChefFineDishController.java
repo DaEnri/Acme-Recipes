@@ -19,9 +19,9 @@ public class ChefFineDishController extends AbstractController<Chef, FineDish> {
 
 	@Autowired
 	protected ChefFineDishShowService	showService;
-//
-//	@Autowired
-//	protected ChefFineDishUpdateService	updateService;
+
+	@Autowired
+	protected ChefFineDishUpdateService	updateService;
 
 	// Constructors -----------------------------------------------------------
 
@@ -30,7 +30,7 @@ public class ChefFineDishController extends AbstractController<Chef, FineDish> {
 	protected void initialise() {
 		super.addCommand("show", this.showService);
 		super.addCommand("list", this.listService);
-//		super.addCommand("update", this.updateService);
+		super.addCommand("update", this.updateService);
 	}
 
 }

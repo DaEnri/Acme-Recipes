@@ -9,3 +9,4 @@ fine-dish-07,chef-03,epicure-04,ACCEPTED,FD:ABA-111,Rodaballo al horno,EUR 150.3
 fine-dish-08,chef-03,epicure-01,DENIED,FD:ACC-124,Magret de pato y granada,EUR 850.00,2018/04/08 08:00,2019/09/12 08:01,2022/02/10 11:00,true,https://example.com/
 fine-dish-09,chef-04,epicure-02,PROPOSED,FD:AZA-543,Corvina con salsa de chile dulce,EUR 360.00,2012/11/08 08:00,2012/12/09 08:00,2013/11/08 08:00,false,null
 fine-dish-10,chef-04,epicure-03,ACCEPTED,FD:VAZ-675,Beef Wellington,EUR 99.99,2009/05/08 08:00,2012/11/08 08:00,2019/04/08 08:00,true,https://example.com/
+fine-dish-11,chef-01,epicure-01,PROPOSED,FD:AAA-923,Rabo de toro,EUR 50.00,2022/01/01 10:00,2022/02/10 11:00,2022/03/01 12:00,true,null
