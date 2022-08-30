@@ -6,7 +6,7 @@ any.recipe.form.label.total-money = Cost of all ingredients and kitchen utensils
 any.recipe.form.label.optional-link = Optional Link:
 any.recipe.form.label.chef-username = Created by the user:
 
-any.recipe.list.title = Listing of tool kits
+any.recipe.list.title = List of published recipes
 
 any.recipe.list.label.code = Code
 any.recipe.list.label.heading = Title
