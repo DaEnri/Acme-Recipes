@@ -2,3 +2,5 @@ administrator.system-configuration.form.label.default-system-currency = Moneda P
 administrator.system-configuration.form.label.accepted-currencies = Monedas Aceptadas
 administrator.system-configuration.form.label.spam-terms = Terminos de Spam y sus pesos
 administrator.system-configuration.form.label.spam-threshold = Umbral de Spam
+
+authenticated.system-configuration.form.label.money-exchange = Servicio de cambio de moneda
