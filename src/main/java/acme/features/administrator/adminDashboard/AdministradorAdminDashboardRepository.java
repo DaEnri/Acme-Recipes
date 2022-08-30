@@ -15,7 +15,7 @@ public interface AdministradorAdminDashboardRepository extends AbstractRepositor
 	
 	@Query("select ki.retailPrice.currency, avg(ki.retailPrice.amount) from KitchenItem ki where ki.type = acme.entities.KitchenItemType.INGREDIENT group by ki.retailPrice.currency")
 	List<Object[]> averageRetailPriceIngredientsByCurrency();
-	@Query("select ki.retailPrice.currency, stddev(ki.retailPrice.amount) from KitchenItem ki where ki.type = acme.entities.KitchenItemType.INGREDIENT group ki.retailPrice.currency")
+	@Query("select ki.retailPrice.currency, stddev(ki.retailPrice.amount) from KitchenItem ki where ki.type = acme.entities.KitchenItemType.INGREDIENT group by ki.retailPrice.currency")
 	List<Object[]> deviationRetailPriceIngredientsByCurrency();
 	@Query("select ki.retailPrice.currency, min(ki.retailPrice.amount) from KitchenItem ki where ki.type = acme.entities.KitchenItemType.INGREDIENT group by ki.retailPrice.currency")
 	List<Object[]> minimumRetailPriceIngredientsByCurrency();
