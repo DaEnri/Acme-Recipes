@@ -49,6 +49,7 @@ master.menu.chef.memorandum = My memorandums
 master.menu.epicure = Epicure
 master.menu.epicure.fineDishes = My fine dishes
 master.menu.epicure.memorandum = My memoranda
+master.menu.epicure.epicure-dashboard = Epicure Dashboard
 
 # master.menu.administrator ###################################################
 
@@ -59,6 +60,7 @@ master.menu.administrator.populate-initial = Populate DB (initial)
 master.menu.administrator.populate-sample = Populate DB (samples)
 master.menu.administrator.shut-down = Shut down
 master.menu.administrator.system-configuration = Configuration
+master.menu.administrator.administrator-dashboard = Administrator Dashboard
 
 # master.menu.provider ########################################################
 
