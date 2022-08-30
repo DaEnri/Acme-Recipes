@@ -593,4 +593,40 @@ SystemConfiguration
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>896</x>
+      <y>332</y>
+      <w>128</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+MoneyExchange
+--
++ source: Money {NotNull, Valid}
++ targetCurrency: String {NotBlank}
++ target: Money {Valid}
++ date: Date
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>896</x>
+      <y>404</y>
+      <w>128</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Component&gt;&gt;
+ExchangeRate
+--
++ rates: Map&lt;String, Double&gt;
++ base: String
++ error: String
++ date: Date
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
