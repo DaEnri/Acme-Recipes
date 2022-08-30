@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 import acme.entities.KitchenItem;
 import acme.entities.KitchenItemType;
 import acme.framework.repositories.AbstractRepository;
+import acme.system.configuration.SystemConfiguration;
 
 @Repository
 public interface AnyKitchenItemRepository extends AbstractRepository{
@@ -23,4 +24,7 @@ public interface AnyKitchenItemRepository extends AbstractRepository{
 	
 	@Query("select q.kitchenItem from Quantity q where q.recipe.id = :recipeId")
 	Collection<KitchenItem> findAllKitchenItemsOfRecipe(Integer recipeId);
+	
+	@Query("select i from SystemConfiguration i")
+	SystemConfiguration getSystemConfiguration();
 }

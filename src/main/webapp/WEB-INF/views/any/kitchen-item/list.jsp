@@ -9,6 +9,7 @@
 	<acme:list-column code="any.kitchenItem.list.label.code" path="code" width="10%"/>
 	<acme:list-column code="any.kitchenItem.list.label.description" path="description" width="10%"/>
 	<acme:list-column code="any.kitchenItem.list.label.retailPrice" path="retailPrice" width="10%"/>
+	<acme:list-column code="any.kitchenItem.list.label.defaultRetailPrice" path="defaultRetailPrice" width="10%"/>
 	<acme:list-column code="any.kitchenItem.list.label.optionalLink" path="optionalLink" width="10%"/>
 	<acme:list-column code="any.kitchenItem.list.label.published" path="published" width="10%"/>
 </acme:list>
