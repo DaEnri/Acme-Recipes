@@ -11,3 +11,5 @@ chef.recipe.list.title = Listado de recetas publicadas
 chef.recipe.list.label.code = Codigo
 chef.recipe.list.label.heading = Cabecera
 chef.recipe.list.label.published = Publicado
+
+chef.recipe.form.label.recipe-items = Ingredientes y utensilios de cocina de esta receta

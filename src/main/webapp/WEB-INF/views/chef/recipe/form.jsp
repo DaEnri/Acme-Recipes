@@ -14,4 +14,6 @@
 	</jstl:if>
 	<acme:input-checkbox code="chef.recipe.form.label.published" path="published"/>
 	
+	<acme:button code="chef.recipe.form.label.recipe-items" action="/chef/kitchen-item/list-recipe-filter?recipeId=${id}"/>
+	
 </acme:form>
