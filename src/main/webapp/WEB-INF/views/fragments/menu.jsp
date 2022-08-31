@@ -26,6 +26,7 @@
 			<acme:menu-suboption code="master.menu.any.kitchenUtensils" action="/any/kitchen-item/list-utensil"/>
 			<acme:menu-suboption code="master.menu.any.peeps" action="/any/peep/list"/>
 			<acme:menu-suboption code="master.menu.any.user-accounts" action="/any/user-account/list"/>
+			<acme:menu-suboption code="master.menu.any.recipes" action="/any/recipe/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
@@ -33,6 +34,7 @@
 			<acme:menu-suboption code="master.menu.any.kitchenUtensils" action="/any/kitchen-item/list-utensil"/>
 			<acme:menu-suboption code="master.menu.any.peeps" action="/any/peep/list"/>
 			<acme:menu-suboption code="master.menu.any.user-accounts" action="/any/user-account/list"/>
+			<acme:menu-suboption code="master.menu.any.recipes" action="/any/recipe/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.bulletin" action="/authenticated/bulletin/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.system-configuration" action="/authenticated/system-configuration/show"/>

@@ -15,4 +15,6 @@
 	<acme:input-textbox code="any.kitchenItem.form.label.optionalLink" path="optionalLink" readonly="true"/>
 	<acme:input-textbox code="any.kitchenItem.form.label.published" path="published" readonly="true"/>
 	
+	<acme:button code="any.recipe.form.label.item-recipes" action="/any/recipe/list-item-filter?itemId=${id}"/>
+	
 </acme:form>
