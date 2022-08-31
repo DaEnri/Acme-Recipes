@@ -1,0 +1,15 @@
+chef.recipe.form.label.code = Codigo:
+chef.recipe.form.label.heading = Cabecera:
+chef.recipe.form.label.description = Descripcion:
+chef.recipe.form.label.preparation-notes = Notas de Preparacion:
+chef.recipe.form.label.total-money = Coste de todos los ingredientes y utensilios de cocina de la receta:
+chef.recipe.form.label.optional-link = Link Opcional:
+chef.recipe.list.label.published = Publicado
+
+chef.recipe.list.title = Listado de recetas publicadas
+
+chef.recipe.list.label.code = Codigo
+chef.recipe.list.label.heading = Cabecera
+chef.recipe.list.label.published = Publicado
+
+chef.recipe.form.label.recipe-items = Ingredientes y utensilios de cocina de esta receta

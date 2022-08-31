@@ -45,6 +45,7 @@
 			<acme:menu-suboption code="master.menu.chef.kitchenUtensils" action="/chef/kitchen-item/list-utensil"/>
 			<acme:menu-suboption code="master.menu.chef.fineDishes" action="/chef/fine-dish/list"/>
 			<acme:menu-suboption code="master.menu.chef.memorandum" action="/chef/memorandum/list"/>
+			<acme:menu-suboption code="master.menu.chef.recipes" action="/chef/recipe/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.epicure" access="hasRole('Epicure')">
