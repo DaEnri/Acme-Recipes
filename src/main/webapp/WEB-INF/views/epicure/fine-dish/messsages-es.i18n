@@ -30,5 +30,8 @@ epicure.fineDish.form.error.budget.amount = La cantidad del plato fino debe ser 
 epicure.fineDish.form.error.budget.currency = La divisa especificada no es aceptada
 epicure.fineDish.form.error.startDate = La fecha de inicio del plato fino debe ser al menos un mes despues de su creacion
 epicure.fineDish.form.error.finishDate = La duracion del plato fino debe ser de un mes al menos
+epicure.fineDish.form.error.status = Un chef es el encargado de aceptar o denegar, solo puede proponer
 
-epicure.fineDish.form.button.chef = Chef
+epicure.fineDish.form.label.chefName = Nombre del chef
+
+epicure.fineDish.form.button.chef = Perfil del chef

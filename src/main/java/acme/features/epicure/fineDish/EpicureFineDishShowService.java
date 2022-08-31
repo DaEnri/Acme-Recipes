@@ -56,6 +56,7 @@ public class EpicureFineDishShowService implements AbstractShowService<Epicure, 
 		
 		model.setAttribute("chefId", entity.getChef().getUserAccount().getId());
 		model.setAttribute("chefs", this.repository.findAllChefs());
+		model.setAttribute("chefName", entity.getChef().getUserAccount().getUsername());
 		
 		request.unbind(entity, model, "status", "code", "request", "budget", "creationDate", "startDate", "finishDate", "published", "moreInfo");
 	}
