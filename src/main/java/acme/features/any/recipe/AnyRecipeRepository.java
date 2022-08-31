@@ -25,7 +25,7 @@ public interface AnyRecipeRepository extends AbstractRepository {
 	@Query("select q from Quantity q where q.recipe.published = 1 and q.recipe.id = :id")
 	Collection<Quantity> getKitchenItemsAndQuantitiesByRecipeId(int id);
 	
-	@Query("select q.recipe from Quantity q where q.kitchenItem.id = :itemId")
+	@Query("select q.recipe from Quantity q where q.kitchenItem.id = :itemId and q.recipe.published = 1")
 	Collection<Recipe> getRecipesWithKitchenItemById(int itemId);
 	
 }
