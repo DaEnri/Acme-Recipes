@@ -1,0 +1,3 @@
+recordIndex,status,code,request,budget,creation-date,start-date,finish-date,published,more-info
+0,DENIED,FD:BBB-123,Croquetas de remolacha,EUR 56.36,2009/01/01 08:00,2009/05/08 08:00,2012/11/08 08:00,false,
+1,PROPOSED,FD:AAA-222,Mousse de pato,EUR 67.00,2019/04/08 08:00,2019/06/08 08:00,2019/07/08 08:00,true,https://example.com/

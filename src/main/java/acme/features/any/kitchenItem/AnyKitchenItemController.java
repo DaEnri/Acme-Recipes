@@ -22,6 +22,9 @@ public class AnyKitchenItemController extends AbstractController<Any, KitchenIte
 	@Autowired
 	protected AnyKitchenItemShowService showService;
 	
+	@Autowired
+	protected AnyKitchenItemListRecipeFilterService listRecipeFilterService;
+	
 	// Constructors -----------------------------------------------------------
 
 	@PostConstruct
@@ -29,6 +32,7 @@ public class AnyKitchenItemController extends AbstractController<Any, KitchenIte
 		super.addCommand("list-ingredient", "list", this.listIngredientService);
 		super.addCommand("list-utensil", "list", this.listKitchenUtensilService);
 		super.addCommand("show", this.showService);
+		super.addCommand("list-recipe-filter", "list", this.listRecipeFilterService);
 	}
 		
 }

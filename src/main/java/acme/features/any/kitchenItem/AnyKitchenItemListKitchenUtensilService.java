@@ -43,7 +43,7 @@ public class AnyKitchenItemListKitchenUtensilService implements AbstractListServ
 			assert request != null;
 			assert entity != null;
 			assert model != null;
-
+			
 			request.unbind(entity, model, "type", "name", "code", "description", "retailPrice", "optionalLink", "published");
 			
 		}
