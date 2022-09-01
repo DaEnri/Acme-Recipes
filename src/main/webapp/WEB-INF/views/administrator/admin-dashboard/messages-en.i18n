@@ -3,12 +3,12 @@ administrator.admin-dashboard.form.kitchen-utensils = Kitchen Utensils Metrics
 administrator.admin-dashboard.form.fine-dishes = Fine Dishes Metrics
 
 administrator.admin-dashboard.form.title = Administrator Metrics
-administrator.admin-dashboard.form.count-ingredients = Total Number of Components
+administrator.admin-dashboard.form.count-ingredients = Total Number of ingredients
 administrator.admin-dashboard.form.average-ingredients = Average retail price of ingredients by technology and currency
 administrator.admin-dashboard.form.deviation-ingredients = Deviation retail price of ingredients by technology and currency
 administrator.admin-dashboard.form.minimum-ingredients = Minimum retail price of ingredients by technology and currency
 administrator.admin-dashboard.form.maximum-ingredients = Maximum retail price of ingredients by technology and currency
-administrator.admin-dashboard.form.count-kitchen-utensils = Total Number of Tools
+administrator.admin-dashboard.form.count-kitchen-utensils = Total Number of kitchen utensils
 administrator.admin-dashboard.form.average-kitchen-utensils = Average retail price of kitchen utensils by currency
 administrator.admin-dashboard.form.deviation-kitchen-utensils = Deviation retail price of kitchen utensils by currency
 administrator.admin-dashboard.form.minimum-kitchen-utensils = Minimum retail price of kitchen utensils by currency
