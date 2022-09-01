@@ -9,9 +9,7 @@
 	<acme:input-textbox code="chef.recipe.form.label.description" path="description"/>
 	<acme:input-textbox code="chef.recipe.form.label.preparation-notes" path="preparationNotes"/>
 	<acme:input-money code="chef.recipe.form.label.total-money" path="totalMoneyRecipe"/>
-	<jstl:if test="${optionalLink != null}">
-		<acme:input-textbox code="chef.recipe.form.label.optional-link" path="optionalLink"/>
-	</jstl:if>
+	<acme:input-textbox code="chef.recipe.form.label.optional-link" path="optionalLink"/>
 	<acme:input-checkbox code="chef.recipe.form.label.published" path="published"/>
 	
 	<acme:button code="chef.recipe.form.label.recipe-items" action="/chef/kitchen-item/list-recipe-filter?recipeId=${id}"/>

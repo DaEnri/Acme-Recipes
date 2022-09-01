@@ -21,9 +21,7 @@
 	<acme:input-textbox code="any.recipe.form.label.description" path="description"/>
 	<acme:input-textbox code="any.recipe.form.label.preparation-notes" path="preparationNotes"/>
 	<acme:input-money code="any.recipe.form.label.total-money" path="totalMoneyRecipe"/>
-	<jstl:if test="${optionalLink != null}">
-		<acme:input-textbox code="any.recipe.form.label.optional-link" path="optionalLink"/>
-	</jstl:if>
+	<acme:input-textbox code="any.recipe.form.label.optional-link" path="optionalLink"/>
 	<acme:input-textbox code="any.recipe.form.label.chef-username" path="chefUsername"/>
 	
 	<acme:button code="any.recipe.form.label.recipe-items" action="/any/kitchen-item/list-recipe-filter?recipeId=${id}"/>
