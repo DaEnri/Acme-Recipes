@@ -1,0 +1,5 @@
+recordIndex,type,name,code,description,retail-price,published,optional-link
+0,INGREDIENT,Carne de res,IN:ABC-173,Es un tipo de carne muy utilizado procedente de la vaca,EUR 25.00,true,
+1,INGREDIENT,Pan,IN:CBC-125,Pan de masa madre,EUR 1.45,true,https://example.com/
+2,KITCHEN_UTENSIL,Sarten grande,KU:CBC-125,Sarten antiadherente grande,EUR 13.65,true,
+3,KITCHEN_UTENSIL,Tostadora,KU:EEE-173,Se utiliza para tostar el pan,EUR 61.99,true,

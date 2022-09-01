@@ -25,7 +25,7 @@ master.menu.anonymous.favourite-link-andvarbay = 07269180F: Vargas Bay√≥n, Andr√
 # master.menu.authenticated #######################################################
 
 master.menu.authenticated = Authenticated
-master.menu.authenticated.bulletin = Bulletin List
+master.menu.authenticated.bulletin = Recent Bulletins
 master.menu.authenticated.system-configuration = Currencies Information
 
 # master.menu.any #######################################################
