@@ -1,0 +1,5 @@
+recordIndex,type,name,code,description,retail-price,published,optional-link
+0,KITCHEN_UTENSIL,Colador,KU:ABC-859,Herramienta que sirve para eliminar los liquidos de un plato,EUR 5.36,true,https://example.com/
+1,KITCHEN_UTENSIL,Cuchillo,KU:ABC-173,Utensilio de cocina utilizado para cortar y trocear,EUR 25.00,true,https://example.com/
+2,KITCHEN_UTENSIL,Espatula,KU:AEC-173,Utensilio de cocina utilizado para sacar comida de la sarten o remover,EUR 12.20,true,
+
