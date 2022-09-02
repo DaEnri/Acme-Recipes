@@ -9,3 +9,5 @@
 	<acme:list-column code="epicure.memorandum.list.label.report" path="report" width="25%"/>
 	<acme:list-column code="epicure.memorandum.list.label.optionalLink" path="optionalLink" width="25%"/>
 </acme:list>
+
+<acme:button code="epicure.memorandum.list.button.create" action="/epicure/memorandum/create"/>
