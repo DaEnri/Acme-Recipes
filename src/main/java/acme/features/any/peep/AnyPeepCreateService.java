@@ -1,7 +1,6 @@
 package acme.features.any.peep;
 
 import java.sql.Date;
-import java.time.LocalDate;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -60,7 +59,8 @@ public class AnyPeepCreateService implements AbstractCreateService<Any, Peep>{
 		result.setHeading("");
 		result.setOptionalEmail("");
 		result.setText("");
-		result.setInstantiationMoment(Date.valueOf(LocalDate.now()));
+		final Date instantiationMoment = new Date(System.currentTimeMillis()-1);
+		result.setInstantiationMoment(instantiationMoment);
 		
 		return result;
 	}
