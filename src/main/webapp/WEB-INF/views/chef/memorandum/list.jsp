@@ -10,4 +10,4 @@
 	<acme:list-column code="chef.memorandum.list.label.optionalLink" path="optionalLink" width="25%"/>
 </acme:list>
 
-<%-- <acme:button code="chef.memorandum.list.button.create" action="/chef/memorandum/create"/> --%>
+<acme:button code="chef.memorandum.list.button.create" action="/chef/memorandum/create"/>
