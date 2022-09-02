@@ -9,4 +9,6 @@
 	<acme:input-textbox code="administrator.system-configuration.form.label.accepted-currencies" path="acceptedCurrencies" readonly="${readOnly}"/>
 	<acme:input-textbox code="administrator.system-configuration.form.label.spam-terms" path="spamTerms" readonly="${readOnly}"/>
 	<acme:input-textbox code="administrator.system-configuration.form.label.spam-threshold" path="spamThreshold" readonly="${readOnly}"/>
+	
+	<acme:link code="authenticated.system-configuration.form.label.money-exchange" action="/authenticated/money-exchange/perform"/>
 </acme:form>

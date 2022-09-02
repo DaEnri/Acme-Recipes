@@ -19,4 +19,4 @@ kitchen-item-17,chef-01,INGREDIENT,Aceite,IN:AMM-565,Aceite de oliva virgen extr
 kitchen-item-18,chef-02,INGREDIENT,Macarrones,IN:MAC-333,Macarrones crudos,EUR 1.20,true,null
 kitchen-item-19,chef-02,KITCHEN_UTENSIL,Olla,KU:OLL-125,Olla con gran capacidad,EUR 15.65,true,null
 kitchen-item-20,chef-03,INGREDIENT,Huevo,IN:HUE-323,Huevos tamaño L,EUR 2.50,true,null
-kitchen-item-21,chef-03,KITCHEN_UTENSIL,Sarten pequeña,KU:SAP-234,Sarten antiadherente pequeña,EUOR 6.29,true,null
+kitchen-item-21,chef-03,KITCHEN_UTENSIL,Sarten pequeña,KU:SAP-234,Sarten antiadherente pequeña,EUR 6.29,true,null

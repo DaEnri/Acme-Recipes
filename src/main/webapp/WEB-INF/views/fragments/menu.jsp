@@ -26,6 +26,7 @@
 			<acme:menu-suboption code="master.menu.any.kitchenUtensils" action="/any/kitchen-item/list-utensil"/>
 			<acme:menu-suboption code="master.menu.any.peeps" action="/any/peep/list"/>
 			<acme:menu-suboption code="master.menu.any.user-accounts" action="/any/user-account/list"/>
+			<acme:menu-suboption code="master.menu.any.recipes" action="/any/recipe/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
@@ -33,6 +34,7 @@
 			<acme:menu-suboption code="master.menu.any.kitchenUtensils" action="/any/kitchen-item/list-utensil"/>
 			<acme:menu-suboption code="master.menu.any.peeps" action="/any/peep/list"/>
 			<acme:menu-suboption code="master.menu.any.user-accounts" action="/any/user-account/list"/>
+			<acme:menu-suboption code="master.menu.any.recipes" action="/any/recipe/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.authenticated.bulletin" action="/authenticated/bulletin/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.system-configuration" action="/authenticated/system-configuration/show"/>
@@ -43,11 +45,13 @@
 			<acme:menu-suboption code="master.menu.chef.kitchenUtensils" action="/chef/kitchen-item/list-utensil"/>
 			<acme:menu-suboption code="master.menu.chef.fineDishes" action="/chef/fine-dish/list"/>
 			<acme:menu-suboption code="master.menu.chef.memorandum" action="/chef/memorandum/list"/>
+			<acme:menu-suboption code="master.menu.chef.recipes" action="/chef/recipe/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.epicure" access="hasRole('Epicure')">
 			<acme:menu-suboption code="master.menu.epicure.fineDishes" action="/epicure/fine-dish/list"/>
 			<acme:menu-suboption code="master.menu.epicure.memorandum" action="/epicure/memorandum/list"/>
+			<acme:menu-suboption code="master.menu.epicure.epicure-dashboard" action="/epicure/epicure-dashboard/show"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -59,6 +63,7 @@
 			<acme:menu-suboption code="master.menu.administrator.shut-down" action="/administrator/shut-down"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.system-configuration" action="/administrator/system-configuration/show"/>
+			<acme:menu-suboption code="master.menu.administrator.administrator-dashboard" action="/administrator/admin-dashboard/show"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">

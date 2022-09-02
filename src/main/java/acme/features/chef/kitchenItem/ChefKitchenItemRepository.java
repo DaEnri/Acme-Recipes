@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import acme.entities.KitchenItem;
 import acme.entities.KitchenItemType;
+import acme.entities.Recipe;
 import acme.framework.repositories.AbstractRepository;
 import acme.roles.Chef;
 @Repository
@@ -26,5 +27,11 @@ public interface ChefKitchenItemRepository extends AbstractRepository{
 
 	@Query("select sc.acceptedCurrencies from SystemConfiguration sc")
 	String findAcceptedCurrencies();
+	
+	@Query("select r from Recipe r where r.id = :recipeId")
+	Recipe findOneRecipeById(Integer recipeId);
+	
+	@Query("select q.kitchenItem from Quantity q where q.recipe.id = :recipeId and q.kitchenItem.published = true")
+	Collection<KitchenItem> findAllKitchenItemsOfRecipe(Integer recipeId);
 	
 }
