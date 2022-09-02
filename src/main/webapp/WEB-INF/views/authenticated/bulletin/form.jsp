@@ -4,7 +4,7 @@
 <%@taglib prefix="acme" uri="urn:jsptagdir:/WEB-INF/tags" %>
 
 <acme:form readonly="true">
-	<acme:input-textbox code="authenticated.bulletin.form.label.title" path="heading"/>
+	<acme:input-textbox code="authenticated.bulletin.form.label.heading" path="heading"/>
 	<acme:input-moment code="authenticated.bulletin.form.label.moment" path="instantiationMoment"/>
 	<acme:input-select code="authenticated.bulletin.form.label.critical" path="critical">
 		<acme:input-option code="CRITICAL" value="CRITICAL" selected="${critical}"/>

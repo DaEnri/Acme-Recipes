@@ -1,0 +1,4 @@
+recordIndex,type,name,code,description,retail-price,published,optional-link
+0,KITCHEN_UTENSIL,IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII,KU:ABD-113,Es un utensilio de cocina poco utilizado,GBP 123.45,false,
+1,KITCHEN_UTENSIL,Sarten grande,KU:CBC-125,Sarten antiadherente grande,EUR 13.65,true,
+2,KITCHEN_UTENSIL,Tostadora,KU:EEE-173,Se utiliza para tostar el pan,EUR 61.99,true,

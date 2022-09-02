@@ -1,0 +1,4 @@
+recordIndex,type,name,code,description,retail-price,published,optional-link
+0,INGREDIENT,Aceite,IN:AMM-565,Aceite de oliva virgen extra,EUR 6.20,true,https://example.com/
+1,INGREDIENT,Carne de res,IN:ABC-173,Es un tipo de carne muy utilizado procedente de la vaca,EUR 25.00,true,
+2,INGREDIENT,Huevo,IN:HUE-323,Huevos tamaño L,EUR 2.50,true,
