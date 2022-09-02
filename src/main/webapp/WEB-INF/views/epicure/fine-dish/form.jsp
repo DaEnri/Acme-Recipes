@@ -29,16 +29,15 @@
 	<acme:input-moment code="epicure.fineDish.form.label.finishDate" path="finishDate"/>
 	<acme:input-url code="epicure.fineDish.form.label.moreInfo" path="moreInfo"/>
 	<acme:input-checkbox code="epicure.fineDish.form.label.published" path="published" readonly="true"/>
-	<acme:button code="epicure.fineDish.form.button.chef" action="/any/user-account/show?id=${chefId}"/>
-
-<%--	
+	
 	<jstl:choose>	 
+		<jstl:when test="${acme:anyOf(command, 'show') && published == true}">
+			<acme:input-textbox code="epicure.fineDish.form.label.chefName" path="chefName" readonly="true"/>	
+			<acme:button code="epicure.fineDish.form.button.chef" action="/any/user-account/show?id=${chefId}"/>
+		</jstl:when>
 		<jstl:when test="${acme:anyOf(command, 'show, update, delete, publish') && published == false}">
-			<acme:input-select code="epicure.fineDish.form.label.chef" path="chef">
-				<jstl:forEach items="${ chefs }" var="chefSelected">
-					<acme:input-option code="${ chefSelected.userAccount.username }" value="${ chefSelected.userAccount.username }"/>
-				</jstl:forEach>
-			</acme:input-select>
+			<acme:input-textbox code="epicure.fineDish.form.label.chefName" path="chefName" readonly="true"/>	
+			<acme:button code="epicure.fineDish.form.button.chef" action="/any/user-account/show?id=${chefId}"/>
 			<acme:submit code="epicure.fineDish.form.button.update" action="/epicure/fine-dish/update"/>
 			<acme:submit code="epicure.fineDish.form.button.delete" action="/epicure/fine-dish/delete"/>
 			<acme:submit code="epicure.fineDish.form.button.publish" action="/epicure/fine-dish/publish"/>
@@ -52,7 +51,6 @@
 			<acme:submit code="epicure.fineDish.form.button.create" action="/epicure/fine-dish/create"/>
 		</jstl:when>		
 	</jstl:choose>
---%>
 	
 </acme:form>
 
