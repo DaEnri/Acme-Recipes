@@ -43,7 +43,7 @@ public class AnyKitchenItemListIngredientService implements AbstractListService<
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-
+		
 		request.unbind(entity, model, "type", "name", "code", "description", "retailPrice", "published", "optionalLink");
 		
 	}

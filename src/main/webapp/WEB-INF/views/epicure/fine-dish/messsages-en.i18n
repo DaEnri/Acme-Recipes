@@ -30,5 +30,8 @@ epicure.fineDish.form.error.budget.amount = The budget of the fine dish must be 
 epicure.fineDish.form.error.budget.currency = The specified currency is not accepted
 epicure.fineDish.form.error.startDate = The start date of the fine dish must be at least one month after it's creation
 epicure.fineDish.form.error.finishDate = The duration of the fine dish must be of one month at least
+epicure.fineDish.form.error.status = A chef needs to accept or deny it, you can only propose
 
-epicure.fineDish.form.button.chef = Chef
+epicure.fineDish.form.label.chefName = Chef's name
+
+epicure.fineDish.form.button.chef = Chef's profile

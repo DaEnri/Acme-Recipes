@@ -15,4 +15,4 @@
 	<acme:list-column code="epicure.fineDish.list.label.published" path="published" width="10%"/>
 	
 </acme:list>
-<%-- <acme:button code="epicure.fineDish.list.button.create" action="/epicure/fine-dish/create"/> --%>
+<acme:button code="epicure.fineDish.list.button.create" action="/epicure/fine-dish/create"/>

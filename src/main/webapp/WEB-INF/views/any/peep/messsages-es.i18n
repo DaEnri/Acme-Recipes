@@ -3,3 +3,15 @@ any.peep.list.label.heading = Cabecera
 any.peep.list.label.writer = Escritor	
 any.peep.list.label.text = Texto
 any.peep.list.label.optionalEmail = Correo
+
+any.peep.form.label.instantiationMoment = Momento de instanciación
+any.peep.form.label.heading = Cabecera
+any.peep.form.label.writer = Escritor
+any.peep.form.label.text = Texto
+any.peep.form.label.optionalEmail = Correo
+
+any.peep.form.label.confirmation = Confirmar la creación
+
+any.peep.form.button.create = Crear
+
+any.peep.list.button.create = Crear
