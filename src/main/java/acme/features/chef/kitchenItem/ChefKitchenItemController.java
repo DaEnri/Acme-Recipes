@@ -24,19 +24,20 @@ public class ChefKitchenItemController extends AbstractController<Chef,KitchenIt
 	protected ChefKitchenItemShowService showService;
 	
 	@Autowired
-	protected ChefKitchenItemRecipeFilter recipeFilterService;
+	protected ChefKitchenItemCreateService createService;
 	
-//	@Autowired
-//	protected ChefKitchenItemCreateService createService;
-//	
-//	@Autowired
-//	protected ChefKitchenItemDeleteService deleteService;
-//	
-//	@Autowired
-//	protected ChefKitchenItemUpdateService updateService;
-//	
-//	@Autowired
-//	protected ChefKitchenItemPublishService publishService;
+	@Autowired
+	protected ChefKitchenItemDeleteService deleteService;
+	
+	@Autowired
+	protected ChefKitchenItemUpdateService updateService;
+	
+	@Autowired
+	protected ChefKitchenItemPublishService publishService;
+  
+  @Autowired
+	protected ChefKitchenItemRecipeFilter recipeFilterService;
+  
 	
 	// Constructors -----------------------------------------------------------
 	
@@ -45,11 +46,11 @@ public class ChefKitchenItemController extends AbstractController<Chef,KitchenIt
 		super.addCommand("list-ingredient", "list",  this.ingredientListService);
 		super.addCommand("list-utensil", "list",  this.kitchenUtensilListService);
 		super.addCommand("show", this.showService);
-		super.addCommand("list-recipe-filter", "list", this.recipeFilterService);
-//		super.addCommand("create", this.createService);
-//		super.addCommand("delete", this.deleteService);
-//		super.addCommand("update", this.updateService);
-//		super.addCommand("publish", "update", this.publishService);
+    super.addCommand("list-recipe-filter", "list", this.recipeFilterService);
+    super.addCommand("create", this.createService);
+		super.addCommand("delete", this.deleteService);
+		super.addCommand("update", this.updateService);
+		super.addCommand("publish", "update", this.publishService);
 	}
 	
 }
