@@ -1,0 +1,8 @@
+authenticated.chef.form.title = Datos Chefs
+
+authenticated.chef.form.label.organisation = Organización
+authenticated.chef.form.label.assertion = Afirmacion
+authenticated.chef.form.label.info = URL Info
+
+authenticated.consumer.form.button.create = Registrar
+authenticated.consumer.form.button.update = Actualizar
