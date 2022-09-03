@@ -2,8 +2,13 @@ epicure.memorandum.list.label.instantiationMoment = Momento de instanciación
 epicure.memorandum.list.label.report = Reporte
 epicure.memorandum.list.label.optionalLink = Link Opcional
 epicure.memorandum.list.label.serialCode = Código de Serie
+epicure.memorandum.list.button.create = Crear
 
 epicure.memorandum.form.label.instantiationMoment = Momento de instanciación
 epicure.memorandum.form.label.report = Reporte
 epicure.memorandum.form.label.optionalLink = Link Opcional
 epicure.memorandum.form.label.serialCode = Código de Serie
+epicure.memorandum.form.label.fineDishCode = Código del plato fino
+epicure.memorandum.form.label.fineDishRequest = Petición del plato fino
+epicure.memorandum.form.label.confirmation = Confirmar la creación
+epicure.memorandum.form.button.create = Crear
