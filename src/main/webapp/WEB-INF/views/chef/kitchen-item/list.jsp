@@ -11,4 +11,4 @@
 	<acme:list-column code="chef.kitchenItem.list.label.optionalLink" path="optionalLink" width="20%"/>
 	<acme:list-column code="chef.kitchenItem.list.label.published" path="published" width="20%"/>
 </acme:list>
-<%-- <acme:button code="chef.kitchenItem.list.button.create" action="/chef/kitchen-item/create"/> --%>
+ <acme:button code="chef.kitchenItem.list.button.create" action="/chef/kitchen-item/create"/>
