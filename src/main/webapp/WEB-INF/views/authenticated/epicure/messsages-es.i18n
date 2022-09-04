@@ -1,8 +1,8 @@
 authenticated.epicure.form.title = Datos Sibaritas
 
-authenticated.chef.form.label.organisation = Organización
-authenticated.chef.form.label.assertion = Afirmacion
-authenticated.chef.form.label.info = URL Info
+authenticated.epicure.form.label.organisation = Organización
+authenticated.epicure.form.label.assertion = Afirmacion
+authenticated.epicure.form.label.info = URL Info
 
-authenticated.consumer.form.button.create = Registrar
-authenticated.consumer.form.button.update = Actualizar
+authenticated.epicure.form.button.create = Registrar
+authenticated.epicure.form.button.update = Actualizar

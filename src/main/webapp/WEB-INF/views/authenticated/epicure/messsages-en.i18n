@@ -1,8 +1,8 @@
 authenticated.epicure.form.title = Epicure Data
 
-authenticated.chef.form.label.organisation = Organisation
-authenticated.chef.form.label.assertion = Assertion
-authenticated.chef.form.label.info = URL Info
+authenticated.epicure.form.label.organisation = Organisation
+authenticated.epicure.form.label.assertion = Assertion
+authenticated.epicure.form.label.info = URL Info
 
-authenticated.chef.form.button.create = Register
-authenticated.chef.form.button.update = Update
+authenticated.epicure.form.button.create = Register
+authenticated.epicure.form.button.update = Update
