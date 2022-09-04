@@ -31,5 +31,8 @@ public interface ChefRecipeRepository extends AbstractRepository {
 	
 	@Query("select r from Recipe r where r.code = :code")
 	Recipe findRecipeByCode(String code);
+	
+	@Query("select count(*) from Quantity q where q.recipe.code =:code")
+	Integer countKitchenItemsInRecipeByRecipeCode(String code);
 
 }
