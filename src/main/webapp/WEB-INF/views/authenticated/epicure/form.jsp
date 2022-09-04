@@ -12,6 +12,6 @@
 	<acme:input-textbox code="authenticated.epicure.form.label.assertion" path="assertion"/>
 	<acme:input-textbox code="authenticated.epicure.form.label.info" path="info"/>
 	
-	<acme:submit test="${command == 'create'}" code="authenticated.epicure.form.button.create" action="/authenticated/chef/create"/>
-	<acme:submit test="${command == 'update'}" code="authenticated.epicure.form.button.update" action="/authenticated/chef/update"/>
+	<acme:submit test="${command == 'create'}" code="authenticated.epicure.form.button.create" action="/authenticated/epicure/create"/>
+	<acme:submit test="${command == 'update'}" code="authenticated.epicure.form.button.update" action="/authenticated/epicure/update"/>
 </acme:form>
