@@ -1,0 +1,21 @@
+chef.quantity.list.label.amount = Amount
+chef.quantity.list.label.unit = Measurement Unit
+chef.quantity.list.label.kitchen-item-type = Type
+chef.quantity.list.label.kitchen-item-code = Code
+chef.quantity.list.label.kitchen-item-name = Name
+chef.quantity.list.label.kitchen-item-retail-price = Retail Price
+
+chef.quantity.list.label.create.button = Add kitchen item to the recipe
+
+chef.quantity.form.label.kitchen-item-code = Code
+chef.quantity.form.label.unit = Measurement Unit
+chef.quantity.form.label.amount = Amount
+
+chef.quantity.form.button.update = Update quantity
+chef.quantity.form.button.delete = Remove
+chef.quantity.form.button.create = Add
+
+
+chef.quantity.form.error.not-exists.kitchen-item = The specified code is not binded with a kitchen item
+chef.quantity.form.error.not-published.kitchen-item = The used kitchen item is not published
+chef.quantity.form.error.is-in-recipe-already.kitchen-item = The specified kitchen item is in the recipe already
