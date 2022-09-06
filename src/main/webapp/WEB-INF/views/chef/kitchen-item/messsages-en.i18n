@@ -22,3 +22,6 @@ chef.kitchenItem.form.button.create = Create
 chef.kitchenItem.form.error.duplicated = This code is taken
 chef.kitchenItem.form.error.retailPrice.amount = Retail Price must be higher than 0
 chef.kitchenItem.form.error.retailPrice.currency = The specified currency is not accepted
+
+chef.kitchen-item.error.name.isSpam = The specified name is classified as spam
+chef.kitchen-item.error.description.isSpam = The specified description is classified as spam

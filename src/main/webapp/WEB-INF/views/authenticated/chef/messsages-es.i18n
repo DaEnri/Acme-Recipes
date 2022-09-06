@@ -4,5 +4,8 @@ authenticated.chef.form.label.organisation = Organización
 authenticated.chef.form.label.assertion = Afirmacion
 authenticated.chef.form.label.info = URL Info
 
-authenticated.consumer.form.button.create = Registrar
-authenticated.consumer.form.button.update = Actualizar
+authenticated.chef.form.button.create = Registrar
+authenticated.chef.form.button.update = Actualizar
+
+authenticated.chef.error.organisation.isSpam = La organizacion especificada se ha clasificado como spam
+authenticated.chef.error.assertion.isSpam = La afirmacion especificada se ha clasificado como spam

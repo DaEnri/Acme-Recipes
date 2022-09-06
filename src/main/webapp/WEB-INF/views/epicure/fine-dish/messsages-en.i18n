@@ -35,3 +35,6 @@ epicure.fineDish.form.error.status = A chef needs to accept or deny it, you can 
 epicure.fineDish.form.label.chefName = Chef's name
 
 epicure.fineDish.form.button.chef = Chef's profile
+
+epicure.fine-dish.error.request.isSpam = The specified request is classified as spam
+

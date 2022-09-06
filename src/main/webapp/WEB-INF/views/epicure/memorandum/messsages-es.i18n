@@ -12,3 +12,5 @@ epicure.memorandum.form.label.fineDishCode = Código del plato fino
 epicure.memorandum.form.label.fineDishRequest = Petición del plato fino
 epicure.memorandum.form.label.confirmation = Confirmar la creación
 epicure.memorandum.form.button.create = Crear
+
+epicure.memorandum.error.report.isSpam = El reporte especificado se ha clasificado como spam

@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import acme.entities.FineDish;
 import acme.entities.Status;
+import acme.features.spam.SpamDetectorService;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
@@ -22,6 +23,9 @@ public class EpicureFineDishCreateService implements AbstractCreateService<Epicu
 	
 	@Autowired
 	protected EpicureFineDishRepository repository;
+	
+	@Autowired
+	protected SpamDetectorService spamDetectorService;
 	
 	// AbstractCreateService<Epicure, FineDish> interface -------------------------
 	
@@ -84,6 +88,10 @@ public class EpicureFineDishCreateService implements AbstractCreateService<Epicu
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		
+		if (!errors.hasErrors("request")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("request")), "request", "epicure.fine-dish.error.request.isSpam");
+		}
 		
 		if (!errors.hasErrors("code")) {
 			FineDish fdWithSameCode;
