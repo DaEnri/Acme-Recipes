@@ -12,6 +12,7 @@ chef.fineDish.form.label.status = Status
 chef.fineDish.form.label.code = Code
 chef.fineDish.form.label.request = Request
 chef.fineDish.form.label.budget = Budget
+chef.fineDish.form.label.budget-default-currency = Budget (Default Currency)
 chef.fineDish.form.label.creationDate = Creation Date
 chef.fineDish.form.label.startDate = Start Date
 chef.fineDish.form.label.finishDate = Finish Date

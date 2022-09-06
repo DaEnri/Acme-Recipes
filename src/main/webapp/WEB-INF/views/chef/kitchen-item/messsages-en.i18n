@@ -12,6 +12,7 @@ chef.kitchenItem.form.label.name = Name
 chef.kitchenItem.form.label.code = Code
 chef.kitchenItem.form.label.description = Description
 chef.kitchenItem.form.label.retailPrice = Retail Price
+chef.kitchenItem.form.label.retailPrice-default-currency = Retail Price (Default Currency)
 chef.kitchenItem.form.label.optionalLink = Optional Link
 chef.kitchenItem.form.label.published = Published
 chef.kitchenItem.form.button.update = Update
