@@ -3,4 +3,8 @@ administrator.system-configuration.form.label.accepted-currencies = Monedas Acep
 administrator.system-configuration.form.label.spam-terms = Terminos de Spam y sus pesos
 administrator.system-configuration.form.label.spam-threshold = Umbral de Spam
 
+administrator.system-configuration.submit.label.update = Actualizar configuracion del sistema
+
 authenticated.system-configuration.form.label.money-exchange = Servicio de cambio de moneda
+
+administrator.system-configuration.form.error.not-default-currency = La moneda predeterminada especificada no es una de las monedas aceptadas
