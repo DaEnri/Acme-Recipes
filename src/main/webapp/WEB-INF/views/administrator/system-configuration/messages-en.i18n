@@ -3,4 +3,8 @@ administrator.system-configuration.form.label.accepted-currencies = Accepted Cur
 administrator.system-configuration.form.label.spam-terms = Spam terms and their weights
 administrator.system-configuration.form.label.spam-threshold = Spam threshold
 
+administrator.system-configuration.submit.label.update = Update system configuration
+
 authenticated.system-configuration.form.label.money-exchange = Money exchange service
+
+administrator.system-configuration.form.error.not-default-currency = The specified default currency is not one of the accepted currencies
