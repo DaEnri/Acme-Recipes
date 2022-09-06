@@ -12,4 +12,11 @@ chef.recipe.list.label.code = Code
 chef.recipe.list.label.heading = Heading
 chef.recipe.list.label.published = Published
 
-chef.recipe.form.label.recipe-items = Ingredients and kitchen utensils of this recipe
+chef.recipe.list.label.create = Create recipe
+
+chef.recipe.form.label.recipe-items = List the recipe ingredients/kitchen utensils and its details
+chef.recipe.form.button.edit-recipe-items = Edit ingredients/kitchen utensils of this recipe
+chef.recipe.form.button.update = Update recipe
+chef.recipe.form.button.delete = Delete recipe
+chef.recipe.form.button.publish = Publish recipe
+chef.recipe.form.button.create = Create recipe

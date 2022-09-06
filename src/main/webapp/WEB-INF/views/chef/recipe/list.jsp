@@ -12,3 +12,5 @@
 	<acme:list-column code="chef.recipe.list.label.heading" path="heading"/>
 	<acme:list-column code="chef.recipe.list.label.published" path="published"/>
 </acme:list>
+
+<acme:button code="chef.recipe.list.label.create" action="/chef/recipe/create"/>
