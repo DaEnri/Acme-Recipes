@@ -2,6 +2,7 @@ package acme.system.configuration;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Range;
 
@@ -29,6 +30,7 @@ public class SystemConfiguration extends AbstractEntity{
 	@NotBlank
 	private String spamTerms;
 	
+	@NotNull
 	@Range(min = 0, max = 1)
 	private Double spamThreshold;
 	
