@@ -1,0 +1,7 @@
+administrator.bulletin.form.label.heading = Heading
+administrator.bulletin.form.label.critical = Criticality
+administrator.bulletin.form.label.text = Text
+administrator.bulletin.form.label.url = URL
+
+administrator.bulletin.form.label.confirmation = Confirm the creation of this bulletin
+administrator.bulletin.form.button.create = Create
