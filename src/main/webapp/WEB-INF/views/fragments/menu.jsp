@@ -64,6 +64,7 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.system-configuration" action="/administrator/system-configuration/update"/>
 			<acme:menu-suboption code="master.menu.administrator.administrator-dashboard" action="/administrator/admin-dashboard/show"/>
+			<acme:menu-suboption code="master.menu.administrator.create-bulletin" action="/administrator/bulletin/create"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
