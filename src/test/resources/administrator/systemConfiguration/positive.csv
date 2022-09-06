@@ -1,0 +1,5 @@
+recordIndex,acceptedCurrencies,defaultSystemCurrency,spamTerms,spamThreshold
+1,"EUR,USD,GBP,ASD","USD","sex,hard core,puta,viagra,cialis,sexo,duro,s3xo",0.10
+2,"EUR,GBP","GBP","pene",0.98
+3,"ASD","ASD","(pene,0.2),(droga,0.1),(franco,0.6)",0.50
+4,"EUR,ASD,USD","EUR","(pito,0.2),(polla,0.1),(viva franco,0.6),(muertos,0.3),(cago,0.2),(gilipollas,0.55)",0.05
