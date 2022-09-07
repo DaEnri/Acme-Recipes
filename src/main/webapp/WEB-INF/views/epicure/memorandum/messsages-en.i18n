@@ -12,3 +12,5 @@ epicure.memorandum.form.label.fineDishCode = Fine dish code
 epicure.memorandum.form.label.fineDishRequest = Fine dish request
 epicure.memorandum.form.label.confirmation = Confirm the creation
 epicure.memorandum.form.button.create = Create
+
+epicure.memorandum.error.report.isSpam = The specified report is classified as spam

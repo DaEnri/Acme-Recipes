@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.Bulletin;
+import acme.features.spam.SpamDetectorService;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
@@ -20,6 +21,9 @@ public class AdministratorBulletinCreateService implements AbstractCreateService
 
 	@Autowired
 	protected AdministratorBulletinRepository repository;
+	
+	@Autowired
+	protected SpamDetectorService spamDetectorService;
 
 	// AbstractCreateService<Administrator, Bulletin> interface --------------
 
@@ -72,6 +76,14 @@ public class AdministratorBulletinCreateService implements AbstractCreateService
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		
+		if (!errors.hasErrors("heading")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("heading")), "heading", "administrator.bulletin.error.heading.isSpam");
+		}
+		
+		if (!errors.hasErrors("text")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("text")), "text", "administrator.bulletin.error.text.isSpam");
+		}
 		
 		final boolean confirmation = request.getModel().getBoolean("confirmation");
 		errors.state(request, confirmation, "confirmation", "javax.validation.constraints.AssertTrue.message");

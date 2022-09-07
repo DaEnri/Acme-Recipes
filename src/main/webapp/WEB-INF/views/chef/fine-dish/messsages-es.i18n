@@ -12,6 +12,7 @@ chef.fineDish.form.label.status = Estado
 chef.fineDish.form.label.code = Código
 chef.fineDish.form.label.request = Petición
 chef.fineDish.form.label.budget = Presupuesto
+chef.fineDish.form.label.budget-default-currency = Presupuesto (Divisa predeterminada)
 chef.fineDish.form.label.creationDate = Fecha de creación
 chef.fineDish.form.label.startDate = Fecha de inicio
 chef.fineDish.form.label.finishDate = Fecha de fin

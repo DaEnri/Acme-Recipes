@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.KitchenItem;
+import acme.features.authenticated.moneyExchange.AuthenticatedMoneyExchangePerformService;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
 import acme.framework.services.AbstractShowService;
@@ -14,6 +15,9 @@ public class ChefKitchenItemShowService implements AbstractShowService<Chef, Kit
 
 	@Autowired
 	protected ChefKitchenItemRepository repository;
+	
+	@Autowired
+	protected AuthenticatedMoneyExchangePerformService moneyExchangeService;
 	
 	@Override
 	public boolean authorise(final Request<KitchenItem> request) {
@@ -42,6 +46,8 @@ public class ChefKitchenItemShowService implements AbstractShowService<Chef, Kit
 		assert request != null;
 		assert entity != null;
 		assert model != null;
+		
+		model.setAttribute("retailPriceDefaultCurrency", this.moneyExchangeService.computeMoneyExchange(entity.getRetailPrice(), this.repository.getSystemConfiguration().getDefaultSystemCurrency()).getTarget());
 
 		request.unbind(entity, model, "type", "name", "code", "description", "retailPrice", "optionalLink","published");
 	}

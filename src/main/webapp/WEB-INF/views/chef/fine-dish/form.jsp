@@ -12,6 +12,7 @@
 	<acme:input-textbox code="chef.fineDish.form.label.code" path="code" readonly="true"/>
 	<acme:input-textbox code="chef.fineDish.form.label.request" path="request" readonly="true"/>	
 	<acme:input-money code="chef.fineDish.form.label.budget" path="budget" readonly="true"/>
+	<acme:input-money code="chef.fineDish.form.label.budget-default-currency" path="budgetDefaultCurrency" readonly="true"/>
 	<acme:input-moment code="chef.fineDish.form.label.creationDate" path="creationDate" readonly="true"/>
 	<acme:input-moment code="chef.fineDish.form.label.startDate" path="startDate" readonly="true"/>
 	<acme:input-moment code="chef.fineDish.form.label.finishDate" path="finishDate" readonly="true"/>
