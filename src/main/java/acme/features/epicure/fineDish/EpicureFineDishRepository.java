@@ -9,6 +9,7 @@ import acme.entities.FineDish;
 import acme.framework.repositories.AbstractRepository;
 import acme.roles.Chef;
 import acme.roles.Epicure;
+import acme.system.configuration.SystemConfiguration;
 
 @Repository
 public interface EpicureFineDishRepository extends AbstractRepository {
@@ -38,5 +39,8 @@ public interface EpicureFineDishRepository extends AbstractRepository {
 	
 	@Query("select c from Chef c where c.userAccount.username = :chefUsername")
 	Chef findChefByChefUsername(String chefUsername);
+	
+	@Query("select i from SystemConfiguration i")
+	SystemConfiguration getSystemConfiguration();
 	
 }

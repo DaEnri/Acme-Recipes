@@ -24,6 +24,7 @@
 	<acme:input-textbox code="epicure.fineDish.form.label.code" path="code"/>
 	<acme:input-textbox code="epicure.fineDish.form.label.request" path="request"/>	
 	<acme:input-money code="epicure.fineDish.form.label.budget" path="budget"/>
+	<acme:input-money code="epicure.fineDish.form.label.budget-default-currency" path="budgetDefaultCurrency" readonly="true"/>
 	<acme:input-moment code="epicure.fineDish.form.label.creationDate" path="creationDate" readonly="true"/>
 	<acme:input-moment code="epicure.fineDish.form.label.startDate" path="startDate"/>
 	<acme:input-moment code="epicure.fineDish.form.label.finishDate" path="finishDate"/>
