@@ -64,7 +64,7 @@ public class ChefKitchenItemCreateService implements AbstractCreateService<Chef,
 		if(!errors.hasErrors("code")) {
 			KitchenItem item;
 			item = this.repository.findKitchenItemByCode(entity.getCode());
-			errors.state(request, item == null || item.getCode() == entity.getCode(), "code", "chef.kitchenItem.form.error.duplicated");
+			errors.state(request, item == null || item.getId() == entity.getId(), "code", "chef.kitchenItem.form.error.duplicated");
 		}
 		
 		if (!errors.hasErrors("retailPrice")) {
