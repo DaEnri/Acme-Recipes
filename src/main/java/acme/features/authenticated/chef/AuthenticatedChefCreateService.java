@@ -3,6 +3,7 @@ package acme.features.authenticated.chef;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.features.spam.SpamDetectorService;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.HttpMethod;
@@ -21,6 +22,9 @@ public class AuthenticatedChefCreateService implements AbstractCreateService<Aut
 	
 	@Autowired
 	protected AuthenticatedChefRepository repository;
+	
+	@Autowired
+	protected SpamDetectorService spamDetectorService;
 	
 	// AbstractCreateService<Authenticated, Chef> interface -------------------
 	
@@ -79,6 +83,14 @@ public class AuthenticatedChefCreateService implements AbstractCreateService<Aut
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		
+		if (!errors.hasErrors("organisation")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("organisation")), "organisation", "authenticated.chef.error.organisation.isSpam");
+		}
+		
+		if (!errors.hasErrors("assertion")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("assertion")), "assertion", "authenticated.chef.error.assertion.isSpam");
+		}
 		
 	}
 

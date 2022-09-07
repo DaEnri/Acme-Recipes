@@ -6,3 +6,6 @@ authenticated.epicure.form.label.info = URL Info
 
 authenticated.epicure.form.button.create = Registrar
 authenticated.epicure.form.button.update = Actualizar
+
+authenticated.chef.error.organisation.isSpam = La organizacion especificada se ha clasificado como spam
+authenticated.chef.error.assertion.isSpam = La afirmacion especificada se ha clasificado como spam

@@ -22,3 +22,6 @@ chef.kitchenItem.form.button.create = Crear
 chef.kitchenItem.form.error.duplicated = Este código no está libre
 chef.kitchenItem.form.error.retailPrice.amount = El precio debe ser mayor de 0
 chef.kitchenItem.form.error.retailPrice.currency = La divisa especificada no es válida
+
+chef.kitchen-item.error.name.isSpam = El nombre especificado se ha clasificado como spam
+chef.kitchen-item.error.description.isSpam = La descripcion especificada se ha clasificado como spam
