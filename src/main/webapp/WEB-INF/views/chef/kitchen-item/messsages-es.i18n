@@ -12,6 +12,7 @@ chef.kitchenItem.form.label.name = Nombre
 chef.kitchenItem.form.label.code = Código
 chef.kitchenItem.form.label.description = Descripción
 chef.kitchenItem.form.label.retailPrice = Precio
+chef.kitchenItem.form.label.retailPrice-default-currency = Precio (Divisa predeterminada)
 chef.kitchenItem.form.label.optionalLink = Enlace
 chef.kitchenItem.form.label.published = Publicado 
 chef.kitchenItem.form.button.update = Actualizar
@@ -22,3 +23,6 @@ chef.kitchenItem.form.button.create = Crear
 chef.kitchenItem.form.error.duplicated = Este código no está libre
 chef.kitchenItem.form.error.retailPrice.amount = El precio debe ser mayor de 0
 chef.kitchenItem.form.error.retailPrice.currency = La divisa especificada no es válida
+
+chef.kitchen-item.error.name.isSpam = El nombre especificado se ha clasificado como spam
+chef.kitchen-item.error.description.isSpam = La descripcion especificada se ha clasificado como spam

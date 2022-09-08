@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.KitchenItem;
+import acme.features.spam.SpamDetectorService;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
@@ -18,6 +19,9 @@ public class ChefKitchenItemCreateService implements AbstractCreateService<Chef,
 	
 	@Autowired
 	protected ChefKitchenItemRepository repository;
+	
+	@Autowired
+	protected SpamDetectorService spamDetectorService;
 	
 	// AbstractCreateService<Chef, KitchenItem> interface -------------------------
 
@@ -61,10 +65,18 @@ public class ChefKitchenItemCreateService implements AbstractCreateService<Chef,
 		assert entity != null;
 		assert errors != null;
 		
+		if (!errors.hasErrors("name")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("name")), "name", "chef.kitchen-item.error.name.isSpam");
+		}
+		
+		if (!errors.hasErrors("description")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("description")), "description", "chef.kitchen-item.error.description.isSpam");
+		}
+		
 		if(!errors.hasErrors("code")) {
 			KitchenItem item;
 			item = this.repository.findKitchenItemByCode(entity.getCode());
-			errors.state(request, item == null || item.getCode() == entity.getCode(), "code", "chef.kitchenItem.form.error.duplicated");
+			errors.state(request, item == null || item.getId() == entity.getId(), "code", "chef.kitchenItem.form.error.duplicated");
 		}
 		
 		if (!errors.hasErrors("retailPrice")) {

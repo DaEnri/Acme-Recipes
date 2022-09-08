@@ -5,3 +5,6 @@ administrator.bulletin.form.label.url = URL
 
 administrator.bulletin.form.label.confirmation = Confirm the creation of this bulletin
 administrator.bulletin.form.button.create = Create
+
+administrator.bulletin.error.heading.isSpam = The specified heading is classified as spam
+administrator.bulletin.error.text.isSpam = The specified text is classified as spam

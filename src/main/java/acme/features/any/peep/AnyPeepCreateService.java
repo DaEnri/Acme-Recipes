@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.Peep;
+import acme.features.spam.SpamDetectorService;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
@@ -19,6 +20,9 @@ public class AnyPeepCreateService implements AbstractCreateService<Any, Peep>{
 	
 	@Autowired
 	protected AnyPeepRepository repository;
+	
+	@Autowired
+	protected SpamDetectorService spamDetectorService;
 	
 	// AbstractCreateService<Any, Peep> interface -------------------------
 	
@@ -70,6 +74,18 @@ public class AnyPeepCreateService implements AbstractCreateService<Any, Peep>{
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		
+		if (!errors.hasErrors("heading")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("heading")), "heading", "any.peep.error.heading.isSpam");
+		}
+		
+		if (!errors.hasErrors("writer")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("writer")), "writer", "any.peep.error.writer.isSpam");
+		}
+		
+		if (!errors.hasErrors("text")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("text")), "text", "any.peep.error.text.isSpam");
+		}
 		
 		final boolean confirmation = request.getModel().getBoolean("confirmation");
 		errors.state(request, confirmation, "confirmation", "javax.validation.constraints.AssertTrue.message");

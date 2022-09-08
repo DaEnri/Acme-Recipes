@@ -21,6 +21,8 @@ public class ChefMemorandumListShowTest extends TestHarness {
 		super.clickOnMenu("Chef", "My memorandums");
 		super.checkListingExists();
 		
+		super.sortListing(0, "asc");
+		
 		super.checkColumnHasValue(recordIndex, 0, serialCode);
 		super.checkColumnHasValue(recordIndex, 1, instantiationMoment);
 		super.checkColumnHasValue(recordIndex, 2, report);

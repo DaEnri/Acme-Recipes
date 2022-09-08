@@ -10,6 +10,7 @@ import acme.entities.KitchenItemType;
 import acme.entities.Recipe;
 import acme.framework.repositories.AbstractRepository;
 import acme.roles.Chef;
+import acme.system.configuration.SystemConfiguration;
 @Repository
 public interface ChefKitchenItemRepository extends AbstractRepository{
 	
@@ -33,5 +34,8 @@ public interface ChefKitchenItemRepository extends AbstractRepository{
 	
 	@Query("select q.kitchenItem from Quantity q where q.recipe.id = :recipeId and q.kitchenItem.published = true")
 	Collection<KitchenItem> findAllKitchenItemsOfRecipe(Integer recipeId);
+	
+	@Query("select i from SystemConfiguration i")
+	SystemConfiguration getSystemConfiguration();
 	
 }

@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.Memorandum;
+import acme.features.spam.SpamDetectorService;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
@@ -19,6 +20,9 @@ public class ChefMemorandumCreateService implements AbstractCreateService<Chef, 
 
 	@Autowired
 	protected ChefMemorandumRepository repository;
+	
+	@Autowired
+	protected SpamDetectorService spamDetectorService;
 	
 	// AbstractListService<Chef, Memorandum> interface --------------
 	
@@ -76,7 +80,11 @@ public class ChefMemorandumCreateService implements AbstractCreateService<Chef, 
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
-
+		
+		if (!errors.hasErrors("report")) {
+			errors.state(request, !this.spamDetectorService.isTextSpam(request.getModel().getString("report")), "report", "chef.memorandum.error.report.isSpam");
+		}
+		
 		final boolean confirmation = request.getModel().getBoolean("confirmation");
 		errors.state(request, confirmation, "confirmation", "javax.validation.constraints.AssertTrue.message");
 	}

@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.FineDish;
+import acme.features.authenticated.moneyExchange.AuthenticatedMoneyExchangePerformService;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
 import acme.framework.services.AbstractShowService;
@@ -17,6 +18,9 @@ public class ChefFineDishShowService implements AbstractShowService<Chef, FineDi
 
 	@Autowired
 	protected ChefFineDishRepository repository;
+	
+	@Autowired
+	protected AuthenticatedMoneyExchangePerformService moneyExchangeService;
 
 	// AbstractShowService<Chef, FineDish> interface --------------
 
@@ -56,6 +60,8 @@ public class ChefFineDishShowService implements AbstractShowService<Chef, FineDi
 		assert model != null;
 
 		model.setAttribute("epicureId", entity.getEpicure().getUserAccount().getId());
+		
+		model.setAttribute("budgetDefaultCurrency", this.moneyExchangeService.computeMoneyExchange(entity.getBudget(), this.repository.getSystemConfiguration().getDefaultSystemCurrency()).getTarget());
 
 		request.unbind(entity, model, "status", "code", "request", "budget", "creationDate", "startDate", "finishDate", "published", "moreInfo");
 	}

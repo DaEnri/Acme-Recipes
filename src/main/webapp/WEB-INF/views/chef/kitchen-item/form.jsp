@@ -12,6 +12,7 @@
 	<acme:input-textbox code="chef.kitchenItem.form.label.code" path="code"/>	
 	<acme:input-textarea code="chef.kitchenItem.form.label.description" path="description"/>
 	<acme:input-money code="chef.kitchenItem.form.label.retailPrice" path="retailPrice"/>
+	<acme:input-money code="chef.kitchenItem.form.label.retailPrice-default-currency" path="retailPriceDefaultCurrency" readonly="true"/>
 	<acme:input-url code="chef.kitchenItem.form.label.optionalLink" path="optionalLink"/>
 	<acme:input-checkbox code="chef.kitchenItem.form.label.published" path="published" readonly="true"/>
 	

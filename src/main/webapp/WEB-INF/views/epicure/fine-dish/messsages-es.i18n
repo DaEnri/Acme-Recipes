@@ -14,6 +14,7 @@ epicure.fineDish.form.label.status = Estado
 epicure.fineDish.form.label.code = Código
 epicure.fineDish.form.label.request = Petición
 epicure.fineDish.form.label.budget = Presupuesto
+epicure.fineDish.form.label.budget-default-currency = Presupuesto (Divisa predeterminada)
 epicure.fineDish.form.label.creationDate = Fecha de creación
 epicure.fineDish.form.label.startDate = Fecha de inicio
 epicure.fineDish.form.label.finishDate = Fecha de fin
@@ -35,3 +36,5 @@ epicure.fineDish.form.error.status = Un chef es el encargado de aceptar o denega
 epicure.fineDish.form.label.chefName = Nombre del chef
 
 epicure.fineDish.form.button.chef = Perfil del chef
+
+epicure.fine-dish.error.request.isSpam = La peticion especificada se ha clasificado como spam

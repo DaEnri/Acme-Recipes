@@ -12,3 +12,5 @@ chef.memorandum.form.label.fineDishCode = Código del plato fino
 chef.memorandum.form.label.fineDishRequest = Petición del plato fino
 chef.memorandum.form.label.confirmation = Confirmar la creación
 chef.memorandum.form.button.create = Crear
+
+chef.memorandum.error.report.isSpam = El reporte especificado se ha clasificado como spam

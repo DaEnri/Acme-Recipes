@@ -1,4 +1,4 @@
 recordIndex,status,code,request,budget,creation-date,start-date,finish-date,published,more-info
 0,DENIED,FD:ACC-124,Magret de pato y granada,EUR 850.00,2018/04/08 08:00,2019/09/12 08:01,2022/02/10 11:00,true,https://example.com/
-1,DENIED,FD:BBB-123,Croquetas de remolacha,EUR 56.36,2009/01/01 08:00,2009/05/08 08:00,2012/11/08 08:00,false,
+1,DENIED,FD:BBB-123,Croquetas de remolacha,EUR 56.36,2009/01/01 08:00,2009/05/08 08:00,2012/11/08 08:00,true,
 2,PROPOSED,FD:AAA-123,R,"EUR 5,500.00",2022/01/01 10:00,2022/02/10 11:00,2022/03/01 12:00,false,

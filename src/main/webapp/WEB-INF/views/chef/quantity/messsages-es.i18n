@@ -1,0 +1,20 @@
+chef.quantity.list.label.amount = Cantidad
+chef.quantity.list.label.unit = Unidad de medida
+chef.quantity.list.label.kitchen-item-type = Tipo
+chef.quantity.list.label.kitchen-item-code = Codigo
+chef.quantity.list.label.kitchen-item-name = Nombre
+chef.quantity.list.label.kitchen-item-retail-price = Precio Minorista
+
+chef.quantity.list.label.create.button = Añadir objeto de cocina a la receta
+
+chef.quantity.form.label.kitchen-item-code = Codigo
+chef.quantity.form.label.unit = Unidad de medida
+chef.quantity.form.label.amount = Cantidad
+
+chef.quantity.form.button.update = Actualizar cantidad
+chef.quantity.form.button.delete = Quitar
+chef.quantity.form.button.create = Añadir
+
+chef.quantity.form.error.not-exists.kitchen-item = El codigo especificado no esta enlazado a ningun objeto de cocina
+chef.quantity.form.error.not-published.kitchen-item = El objeto de cocina utilizado no es publico
+chef.quantity.form.error.is-in-recipe-already.kitchen-item = El objeto de cocina especificado ya esta en la receta

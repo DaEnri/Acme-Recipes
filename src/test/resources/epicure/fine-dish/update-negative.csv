@@ -1,0 +1,10 @@
+recordIndex,status,code,request,budget,startDate,finishDate,moreInfo
+0,DENIED,EC:BCD-133,Fine dish erroneo,EUR 125.99,2022/10/05 11:11,2022/12/23 11:11,
+1,PROPOSED,FD:BBB-123,Fine dish erroneo,EUR 99.99,2022/10/05 11:11,2022/12/23 11:11,
+2,PROPOSED,VBKK98,Fine dish erroneo,EUR 99.99,2022/10/05 11:11,2022/12/23 11:11,
+3,PROPOSED,EC:BCD-133,SeXO                       CiaLIS,EUR 99.99,2022/10/05 11:11,2022/12/23 11:11,
+4,PROPOSED,EC:BCD-133,finedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedishfinedish,EUR 125.99,2022/10/05 11:11,2022/12/23 11:11,
+5,PROPOSED,EC:BCD-133,Fine dish erroneo,UJK 15.87,2022/10/05 11:11,2022/12/23 11:11,
+6,PROPOSED,EC:BCD-133,Fine dish erroneo,EUR -99.99,2022/10/05 11:11,2022/12/23 11:11,
+7,PROPOSED,EC:BCD-133,Fine dish erroneo,EUR 52.00,2015/12/01 11:11,2022/12/23 11:11,
+8,PROPOSED,EC:BCD-133,Fine dish erroneo,EUR 37.10,2022/11/02 11:11,2021/12/23 11:11,
