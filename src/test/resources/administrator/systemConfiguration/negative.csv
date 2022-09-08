@@ -1,0 +1,10 @@
+recordIndex,acceptedCurrencies,defaultSystemCurrency,spamTerms,spamThreshold
+1,"","","",
+2,"","EUR","pene",0.5
+3,"EUR","","pene,culo",0.2
+4,"EUR","EUR","",0.8
+5,"GBP","GBP","pito",
+6,"GBP","GBP","pito",-0.01
+7,"GBP","GBP","pito",1.01
+8,"EUR,GBP","AAA","culo",0.2
+9,"EUR","GBP","tetas",0.6

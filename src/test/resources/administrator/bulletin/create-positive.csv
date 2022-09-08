@@ -1,0 +1,6 @@
+recordIndex,heading,text,critical,optionalLink
+0,A Important Bulletin,It's very important,true,
+1,AB Not important bulletin,It's not very imporant,true,
+2,AC BBBBBBBBBBBBBBBBBBBBBBBBBUUUUUUUUUUUUUUUUUUUUUUULLEEEEEEEEEEETINNNNNNNNN,This is a bulletin,true,
+3,AD Bulletin,THIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIISSSSSSSSSSSSS is a bulletinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn,true,
+4,AE Bulletin with link,This a bulletin with an optional link,true,https://example.com/
