@@ -25,8 +25,8 @@ public class ChefKitchenItemFilterRecipeListShowTest extends TestHarness {
 		super.clickOnListingRecord(0);
 		super.checkFormExists();
 		
-		super.checkButtonExists("Ingredients and kitchen utensils of this recipe");
-		super.clickOnButton("Ingredients and kitchen utensils of this recipe");
+		super.checkButtonExists("List the recipe ingredients/kitchen utensils and its details");
+		super.clickOnButton("List the recipe ingredients/kitchen utensils and its details");
 		super.checkListingExists();
 		
 		super.checkColumnHasValue(recordIndex, 0, name);
