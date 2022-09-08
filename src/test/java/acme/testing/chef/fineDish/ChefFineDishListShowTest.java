@@ -21,6 +21,8 @@ public class ChefFineDishListShowTest extends TestHarness {
 		super.clickOnMenu("Chef", "My fine dishes");
 		super.checkListingExists();
 		
+		super.sortListing(0, "asc");
+		
 		super.checkColumnHasValue(recordIndex, 0, status);
 		super.checkColumnHasValue(recordIndex, 1, code);
 		super.checkColumnHasValue(recordIndex, 2, request);
