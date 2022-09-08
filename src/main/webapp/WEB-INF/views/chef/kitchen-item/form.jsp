@@ -24,7 +24,7 @@
 		</jstl:when>
 		<jstl:when test="${command == 'create'}">
 			<acme:submit code="chef.kitchenItem.form.button.create" action="/chef/kitchen-item/create"/>
-		</jstl:when>		
+		</jstl:when>
 	</jstl:choose>
 
 	
